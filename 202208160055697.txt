@@ -1,0 +1,3199 @@
+
+
+
+2022-08-15 22:24:47 -- AppInit  process --> ProcessInfo(pid=10349, uid=10349, name=app.tikteam.bind, simpleName={default})  是否是前台 --> false
+
+
+2022-08-15 22:24:49 -- AppInit  process --> ProcessInfo(pid=10728, uid=10728, name=app.tikteam.bind:Notification, simpleName=Notification)  是否是前台 --> false
+
+
+2022-08-15 22:24:49 -- KeepLiveService 初次初始化
+
+
+2022-08-15 22:24:49 -- NotificationService  onCreate
+
+
+2022-08-15 22:24:49 -- KeepLiveService  onCreate
+
+
+2022-08-15 22:24:49 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:24:49 -- NotificationService  onStartCommand  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff9375e
+
+
+2022-08-15 22:24:49 -- !!!!!!!开启智能定位  sDisposable --> null
+
+
+2022-08-15 22:24:50 -- 未登录，不进行上报
+
+
+2022-08-15 22:24:51 -- 未登录，不进行上报
+
+
+2022-08-15 22:24:52 -- 未登录，不进行上报
+
+
+2022-08-15 22:24:53 -- 未登录，不进行上报
+
+
+2022-08-15 22:24:54 -- 开始进行定位
+
+
+2022-08-15 22:24:55 -- 获得定位结果  latitude=0.0#longitude=0.0#province=#coordType=GCJ02#city=#district=#cityCode=#adCode=#address=#country=#road=#poiName=#street=#streetNum=#aoiName=#poiid=#floor=#errorCode=12#errorInfo=缺少定位权限#locationDetail=定位权限被禁用,请授予应用定位权限#1201#description=#locationType=0#conScenario=0  time --> 0
+
+
+2022-08-15 22:24:55 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:24:55 -- 请求定位失败 error --> 12  info --> 缺少定位权限 请到http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明,错误详细信息:定位权限被禁用,请授予应用定位权限#1201
+
+
+2022-08-15 22:24:58 -- AppInit  process --> ProcessInfo(pid=11812, uid=11812, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-15 22:25:11 -- 监听获取到了定位权限，立即进行一次定位
+
+
+2022-08-15 22:25:11 -- 开始进行定位
+
+
+2022-08-15 22:25:13 -- 获得定位结果  latitude=31.183789#longitude=121.63942#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区高木桥路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=高木桥路#poiName=Lisa·舞蹈&瑜伽#street=高木桥路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:d2265593bfe64f23bc98744b0490f58d#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=33  time --> 1660573514163
+
+
+2022-08-15 22:25:13 -- 查询定位列表为空
+
+
+2022-08-15 22:25:13 -- 上次定位结果为空
+
+
+2022-08-15 22:25:13 -- 更新定位信息列表  长度 --> 1
+
+
+2022-08-15 22:25:13 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:25:13 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-15 22:25:13 -- 定位成功后台智能定位成功 121.63942  --  31.183789  address --> 高木桥路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 61.0
+
+
+2022-08-15 22:25:19 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:25:19 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:25:19 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:25:27 -- 监听到充电状态发生改变 --> ACTION_POWER_DISCONNECTED
+
+
+2022-08-15 22:25:49 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:25:49 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:25:49 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:26:30 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:26:30 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:26:30 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:27:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:27:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:27:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:27:13 -- 开始进行定位
+
+
+2022-08-15 22:27:15 -- 获得定位结果  latitude=31.183789#longitude=121.63942#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区高木桥路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=高木桥路#poiName=Lisa·舞蹈&瑜伽#street=高木桥路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:d2265593bfe64f23bc98744b0490f58d#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=33  time --> 1660573514163
+
+
+2022-08-15 22:27:15 -- 上次定位结果的时间 --> 2022-08-15 22:25:13  本次定位结果的时间 --> 2022-08-15 22:25:14
+
+
+2022-08-15 22:27:15 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:27:15 -- 更新定位信息列表  长度 --> 2
+
+
+2022-08-15 22:27:15 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:27:15 -- 定位成功后台智能定位成功 121.63942  --  31.183789  address --> 高木桥路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 61.0
+
+
+2022-08-15 22:28:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:28:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:28:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:29:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:29:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:29:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:29:14 -- 开始进行定位
+
+
+2022-08-15 22:29:17 -- 获得定位结果  latitude=31.183789#longitude=121.63942#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区高木桥路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=高木桥路#poiName=Lisa·舞蹈&瑜伽#street=高木桥路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:d2265593bfe64f23bc98744b0490f58d#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=33  time --> 1660573514163
+
+
+2022-08-15 22:29:17 -- 上次定位结果的时间 --> 2022-08-15 22:27:15  本次定位结果的时间 --> 2022-08-15 22:25:14
+
+
+2022-08-15 22:29:17 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:29:17 -- 更新定位信息列表  长度 --> 3
+
+
+2022-08-15 22:29:17 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:29:17 -- 定位成功后台智能定位成功 121.63942  --  31.183789  address --> 高木桥路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 61.0
+
+
+2022-08-15 22:30:19 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:30:19 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:30:19 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:31:04 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:31:04 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:31:04 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:31:16 -- 开始进行定位
+
+
+2022-08-15 22:31:18 -- 获得定位结果  latitude=31.183789#longitude=121.63942#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区高木桥路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=高木桥路#poiName=Lisa·舞蹈&瑜伽#street=高木桥路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:d2265593bfe64f23bc98744b0490f58d#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=33  time --> 1660573514163
+
+
+2022-08-15 22:31:18 -- 上次定位结果的时间 --> 2022-08-15 22:29:17  本次定位结果的时间 --> 2022-08-15 22:25:14
+
+
+2022-08-15 22:31:18 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:31:18 -- 更新定位信息列表  长度 --> 4
+
+
+2022-08-15 22:31:18 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:31:18 -- 定位成功后台智能定位成功 121.63942  --  31.183789  address --> 高木桥路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 61.0
+
+
+2022-08-15 22:31:49 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:31:49 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:31:49 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:32:51 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:32:51 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:32:51 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:33:17 -- 开始进行定位
+
+
+2022-08-15 22:33:19 -- 获得定位结果  latitude=31.183789#longitude=121.63942#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区高木桥路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=高木桥路#poiName=Lisa·舞蹈&瑜伽#street=高木桥路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:d2265593bfe64f23bc98744b0490f58d#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=33  time --> 1660573514163
+
+
+2022-08-15 22:33:19 -- 上次定位结果的时间 --> 2022-08-15 22:31:18  本次定位结果的时间 --> 2022-08-15 22:25:14
+
+
+2022-08-15 22:33:19 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:33:19 -- 更新定位信息列表  长度 --> 5
+
+
+2022-08-15 22:33:19 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:33:19 -- 定位成功后台智能定位成功 121.63942  --  31.183789  address --> 高木桥路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 61.0
+
+
+2022-08-15 22:33:45 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:33:45 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:33:45 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:34:33 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:34:33 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:34:33 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:35:18 -- 开始进行定位
+
+
+2022-08-15 22:35:20 -- 获得定位结果  latitude=31.18369#longitude=121.639845#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:9af0ff2f4b7c4b68a67fe0210c7fc529#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-36  time --> 1660574121314
+
+
+2022-08-15 22:35:20 -- 上次定位结果的时间 --> 2022-08-15 22:33:19  本次定位结果的时间 --> 2022-08-15 22:35:21
+
+
+2022-08-15 22:35:20 -- 判断没有发生移动 两次定位距离 --> 41.901516  目前距离 --> 100  
+
+
+2022-08-15 22:35:20 -- 更新定位信息列表  长度 --> 6
+
+
+2022-08-15 22:35:20 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:35:20 -- 定位成功后台智能定位成功 121.639845  --  31.18369  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 22:35:27 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:35:27 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:35:27 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:36:18 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:36:18 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:36:18 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:37:17 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:37:17 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:37:17 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:37:20 -- 开始进行定位
+
+
+2022-08-15 22:37:23 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:37:23 -- 上次定位结果的时间 --> 2022-08-15 22:35:20  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:37:23 -- 判断没有发生移动 两次定位距离 --> 36.29062  目前距离 --> 100  
+
+
+2022-08-15 22:37:23 -- 更新定位信息列表  长度 --> 7
+
+
+2022-08-15 22:37:23 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:37:23 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:38:30 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:38:30 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:38:30 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:39:20 -- 开始进行定位
+
+
+2022-08-15 22:39:22 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:39:22 -- 上次定位结果的时间 --> 2022-08-15 22:37:23  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:39:22 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:39:22 -- 更新定位信息列表  长度 --> 8
+
+
+2022-08-15 22:39:22 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:39:22 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:39:25 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:39:25 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:39:25 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:40:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:40:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:40:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:41:20 -- 开始进行定位
+
+
+2022-08-15 22:41:22 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:41:22 -- 上次定位结果的时间 --> 2022-08-15 22:39:22  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:41:22 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:41:22 -- 更新定位信息列表  长度 --> 9
+
+
+2022-08-15 22:41:22 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:41:22 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:41:44 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:41:44 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:41:44 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:42:53 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:42:53 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:42:53 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:43:21 -- 开始进行定位
+
+
+2022-08-15 22:43:22 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:43:22 -- 上次定位结果的时间 --> 2022-08-15 22:41:22  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:43:22 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:43:22 -- 更新定位信息列表  长度 --> 10
+
+
+2022-08-15 22:43:22 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:43:22 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:43:44 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:43:44 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:43:44 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:44:25 -- AppInit  process --> ProcessInfo(pid=15851, uid=15851, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-15 22:44:37 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:44:37 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:44:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:45:07 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:45:07 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:45:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:45:22 -- 开始进行定位
+
+
+2022-08-15 22:45:28 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:45:28 -- 上次定位结果的时间 --> 2022-08-15 22:43:22  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:45:28 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:45:28 -- 更新定位信息列表  长度 --> 11
+
+
+2022-08-15 22:45:28 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:45:28 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:45:43 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:45:43 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:45:43 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:46:13 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:46:13 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:46:13 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:46:43 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:46:43 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:46:43 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:47:13 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:47:13 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:47:13 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:47:23 -- 开始进行定位
+
+
+2022-08-15 22:47:25 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:47:25 -- 上次定位结果的时间 --> 2022-08-15 22:45:28  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:47:25 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:47:25 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:47:25 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:47:25 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:47:43 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:47:43 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:47:43 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:48:13 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:48:13 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:48:13 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:48:43 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:48:43 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:48:43 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:49:13 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:49:13 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:49:13 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:49:24 -- 开始进行定位
+
+
+2022-08-15 22:49:26 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:49:26 -- 上次定位结果的时间 --> 2022-08-15 22:47:25  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:49:26 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:49:26 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:49:26 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:49:26 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:49:43 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:49:43 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:49:43 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:50:13 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:50:13 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:50:13 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:50:43 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:50:43 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:50:43 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:51:24 -- 开始进行定位
+
+
+2022-08-15 22:51:26 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:51:26 -- 上次定位结果的时间 --> 2022-08-15 22:49:26  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:51:26 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:51:26 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:51:26 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:51:26 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:51:33 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:51:33 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:51:33 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:52:41 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:52:41 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:52:41 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:53:26 -- 开始进行定位
+
+
+2022-08-15 22:53:27 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:53:27 -- 上次定位结果的时间 --> 2022-08-15 22:51:26  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:53:27 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:53:27 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:53:27 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:53:27 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:53:54 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:53:54 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:53:54 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:54:58 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:54:58 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:54:58 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:55:26 -- 开始进行定位
+
+
+2022-08-15 22:55:29 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:55:29 -- 上次定位结果的时间 --> 2022-08-15 22:53:27  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:55:29 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:55:29 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:55:29 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:55:29 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:55:58 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:55:58 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:55:58 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:57:04 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:57:04 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:57:04 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:57:29 -- 开始进行定位
+
+
+2022-08-15 22:57:30 -- 获得定位结果  latitude=31.18337#longitude=121.63977#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:797f88b584ff4d868ce44e2cd2656658#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-48  time --> 1660574243391
+
+
+2022-08-15 22:57:30 -- 上次定位结果的时间 --> 2022-08-15 22:55:29  本次定位结果的时间 --> 2022-08-15 22:37:23
+
+
+2022-08-15 22:57:30 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 22:57:30 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:57:30 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:57:30 -- 定位成功后台智能定位成功 121.63977  --  31.18337  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 22:57:42 -- AppInit  process --> ProcessInfo(pid=17646, uid=17646, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-15 22:57:53 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:57:53 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:57:53 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:58:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:58:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:58:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 22:59:31 -- 开始进行定位
+
+
+2022-08-15 22:59:32 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:81be75308fef49df9e6d0a679f3918db#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-13  time --> 1660575573356
+
+
+2022-08-15 22:59:32 -- 上次定位结果的时间 --> 2022-08-15 22:57:30  本次定位结果的时间 --> 2022-08-15 22:59:33
+
+
+2022-08-15 22:59:32 -- 判断没有发生移动 两次定位距离 --> 35.372242  目前距离 --> 100  
+
+
+2022-08-15 22:59:33 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 22:59:33 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 22:59:33 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 22:59:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 22:59:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 22:59:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:00:55 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:00:55 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:00:55 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:01:32 -- 开始进行定位
+
+
+2022-08-15 23:01:33 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:81be75308fef49df9e6d0a679f3918db#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660575573356
+
+
+2022-08-15 23:01:33 -- 上次定位结果的时间 --> 2022-08-15 22:59:33  本次定位结果的时间 --> 2022-08-15 22:59:33
+
+
+2022-08-15 23:01:33 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:01:33 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:01:33 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:01:33 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:02:07 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:02:07 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:02:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:03:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:03:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:03:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:03:34 -- 开始进行定位
+
+
+2022-08-15 23:03:34 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:81be75308fef49df9e6d0a679f3918db#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660575573356
+
+
+2022-08-15 23:03:34 -- 上次定位结果的时间 --> 2022-08-15 23:01:33  本次定位结果的时间 --> 2022-08-15 22:59:33
+
+
+2022-08-15 23:03:34 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:03:34 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:03:34 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:03:34 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:03:59 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:03:59 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:03:59 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:05:07 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:05:07 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:05:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:05:35 -- 开始进行定位
+
+
+2022-08-15 23:05:36 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:81be75308fef49df9e6d0a679f3918db#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660575573356
+
+
+2022-08-15 23:05:36 -- 上次定位结果的时间 --> 2022-08-15 23:03:34  本次定位结果的时间 --> 2022-08-15 22:59:33
+
+
+2022-08-15 23:05:36 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:05:36 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:05:36 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:05:36 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:06:11 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:06:11 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:06:11 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:07:04 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:07:04 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:07:04 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:07:36 -- 开始进行定位
+
+
+2022-08-15 23:07:37 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:815a1ddf0f0d46d4a7422631d144b800#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-13  time --> 1660576057741
+
+
+2022-08-15 23:07:37 -- 上次定位结果的时间 --> 2022-08-15 23:05:36  本次定位结果的时间 --> 2022-08-15 23:07:37
+
+
+2022-08-15 23:07:37 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:07:37 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:07:37 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:07:37 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:07:48 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:07:48 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:07:48 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:08:37 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:08:37 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:08:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:09:25 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:09:25 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:09:25 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:09:38 -- 开始进行定位
+
+
+2022-08-15 23:09:39 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:09:39 -- 上次定位结果的时间 --> 2022-08-15 23:07:37  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:09:39 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:09:39 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:09:39 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:09:39 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:10:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:10:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:10:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:10:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:10:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:10:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:10:56 -- AppInit  process --> ProcessInfo(pid=19607, uid=19607, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-15 23:11:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:11:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:11:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:11:38 -- 开始进行定位
+
+
+2022-08-15 23:11:39 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:11:39 -- 上次定位结果的时间 --> 2022-08-15 23:09:39  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:11:39 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:11:39 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:11:39 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:11:39 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:12:18 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:12:18 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:12:18 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:13:14 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:13:14 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:13:14 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:13:41 -- 开始进行定位
+
+
+2022-08-15 23:13:42 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:13:42 -- 上次定位结果的时间 --> 2022-08-15 23:11:39  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:13:42 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:13:42 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:13:42 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:13:42 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:14:19 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:14:19 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:14:19 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:15:20 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:15:20 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:15:20 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:15:41 -- 开始进行定位
+
+
+2022-08-15 23:15:41 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:15:41 -- 上次定位结果的时间 --> 2022-08-15 23:13:42  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:15:41 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:15:41 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:15:41 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:15:41 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:15:54 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:15:54 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:15:54 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:16:59 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:17:00 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:17:00 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:17:44 -- 开始进行定位
+
+
+2022-08-15 23:17:44 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:17:44 -- 上次定位结果的时间 --> 2022-08-15 23:15:41  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:17:44 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:17:44 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:17:44 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:17:44 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:18:03 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:18:03 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:18:03 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:18:57 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:18:57 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:18:57 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:19:45 -- 开始进行定位
+
+
+2022-08-15 23:19:47 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:19:47 -- 上次定位结果的时间 --> 2022-08-15 23:17:44  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:19:47 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:19:47 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:19:47 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:19:47 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:20:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:20:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:20:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:20:55 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:20:55 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:20:55 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:21:46 -- 开始进行定位
+
+
+2022-08-15 23:21:46 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:21:46 -- 上次定位结果的时间 --> 2022-08-15 23:19:47  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:21:46 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:21:46 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:21:46 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:21:46 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:21:59 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:22:00 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:22:00 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:23:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:23:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:23:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:23:46 -- 开始进行定位
+
+
+2022-08-15 23:23:48 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:23:48 -- 上次定位结果的时间 --> 2022-08-15 23:21:46  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:23:48 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:23:48 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:23:48 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:23:48 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:24:03 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:24:03 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:24:03 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:25:03 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:25:04 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:25:04 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:25:44 -- AppInit  process --> ProcessInfo(pid=21723, uid=21723, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-15 23:25:47 -- 开始进行定位
+
+
+2022-08-15 23:25:47 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:25:47 -- 上次定位结果的时间 --> 2022-08-15 23:23:48  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:25:47 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:25:47 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:25:47 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:25:47 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:26:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:26:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:26:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:27:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:27:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:27:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:27:48 -- 开始进行定位
+
+
+2022-08-15 23:27:48 -- 获得定位结果  latitude=31.183664#longitude=121.639912#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f99d2e9d75324512a2a714f9cda2df78#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-13  time --> 1660576179617
+
+
+2022-08-15 23:27:48 -- 上次定位结果的时间 --> 2022-08-15 23:25:47  本次定位结果的时间 --> 2022-08-15 23:09:39
+
+
+2022-08-15 23:27:48 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:27:48 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:27:48 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:27:48 -- 定位成功后台智能定位成功 121.639912  --  31.183664  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:28:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:28:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:28:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:28:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:28:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:28:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:29:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:29:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:29:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:29:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:29:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:29:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:29:48 -- 开始进行定位
+
+
+2022-08-15 23:29:50 -- 获得定位结果  latitude=31.183676#longitude=121.639918#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:301ae4e9e86f412bb200c4c26aa31d08#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-20  time --> 1660577390927
+
+
+2022-08-15 23:29:50 -- 上次定位结果的时间 --> 2022-08-15 23:27:48  本次定位结果的时间 --> 2022-08-15 23:29:50
+
+
+2022-08-15 23:29:50 -- 判断没有发生移动 两次定位距离 --> 1.4512897  目前距离 --> 100  
+
+
+2022-08-15 23:29:50 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:29:50 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:29:50 -- 定位成功后台智能定位成功 121.639918  --  31.183676  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:30:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:30:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:30:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:30:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:30:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:30:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:31:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:31:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:31:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:31:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:31:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:31:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:31:49 -- 开始进行定位
+
+
+2022-08-15 23:31:51 -- 获得定位结果  latitude=31.183676#longitude=121.639918#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:301ae4e9e86f412bb200c4c26aa31d08#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-20  time --> 1660577390927
+
+
+2022-08-15 23:31:51 -- 上次定位结果的时间 --> 2022-08-15 23:29:50  本次定位结果的时间 --> 2022-08-15 23:29:50
+
+
+2022-08-15 23:31:51 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:31:51 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:31:51 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:31:51 -- 定位成功后台智能定位成功 121.639918  --  31.183676  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:32:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:32:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:32:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:32:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:32:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:32:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:33:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:33:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:33:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:33:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:33:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:33:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:33:50 -- 开始进行定位
+
+
+2022-08-15 23:33:52 -- 获得定位结果  latitude=31.18333#longitude=121.63979#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:bb965bb057424cc6b50ad797452ba19d#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-60  time --> 1660577633151
+
+
+2022-08-15 23:33:52 -- 上次定位结果的时间 --> 2022-08-15 23:31:51  本次定位结果的时间 --> 2022-08-15 23:33:53
+
+
+2022-08-15 23:33:52 -- 判断没有发生移动 两次定位距离 --> 40.354343  目前距离 --> 100  
+
+
+2022-08-15 23:33:52 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:33:52 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:33:52 -- 定位成功后台智能定位成功 121.63979  --  31.18333  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 125.0
+
+
+2022-08-15 23:34:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:34:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:34:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:34:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:34:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:34:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:35:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:35:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:35:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:35:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:35:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:35:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:35:50 -- 开始进行定位
+
+
+2022-08-15 23:35:52 -- 获得定位结果  latitude=31.183714#longitude=121.640011#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:003d9b50dd1840fea882dfb0d09e8052#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-20  time --> 1660577753325
+
+
+2022-08-15 23:35:52 -- 上次定位结果的时间 --> 2022-08-15 23:33:52  本次定位结果的时间 --> 2022-08-15 23:35:53
+
+
+2022-08-15 23:35:52 -- 判断没有发生移动 两次定位距离 --> 47.593884  目前距离 --> 100  
+
+
+2022-08-15 23:35:52 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:35:52 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:35:52 -- 定位成功后台智能定位成功 121.640011  --  31.183714  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:36:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:36:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:36:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:36:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:36:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:36:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:37:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:37:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:37:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:37:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:37:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:37:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:37:51 -- 开始进行定位
+
+
+2022-08-15 23:37:55 -- 获得定位结果  latitude=31.183661#longitude=121.639953#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:e53d3828a282476bbdceb1e312dd9a9c#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-18  time --> 1660577875398
+
+
+2022-08-15 23:37:55 -- 上次定位结果的时间 --> 2022-08-15 23:35:52  本次定位结果的时间 --> 2022-08-15 23:37:55
+
+
+2022-08-15 23:37:55 -- 判断没有发生移动 两次定位距离 --> 8.073023  目前距离 --> 100  
+
+
+2022-08-15 23:37:55 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:37:55 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:37:55 -- 定位成功后台智能定位成功 121.639953  --  31.183661  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-15 23:38:02 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:38:02 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:38:02 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:38:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:38:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:38:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:39:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:39:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:39:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:39:45 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:39:45 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:39:45 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:39:52 -- 开始进行定位
+
+
+2022-08-15 23:39:53 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:39:53 -- 上次定位结果的时间 --> 2022-08-15 23:37:55  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:39:53 -- 判断没有发生移动 两次定位距离 --> 0.24188161  目前距离 --> 100  
+
+
+2022-08-15 23:39:53 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:39:53 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:39:53 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:40:42 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:40:42 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:40:42 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:41:30 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:41:30 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:41:30 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:41:52 -- 开始进行定位
+
+
+2022-08-15 23:41:54 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:41:54 -- 上次定位结果的时间 --> 2022-08-15 23:39:53  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:41:54 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:41:54 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:41:54 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:41:54 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:42:13 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:42:13 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:42:13 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:43:07 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:43:07 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:43:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:43:54 -- 开始进行定位
+
+
+2022-08-15 23:43:56 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:43:56 -- 上次定位结果的时间 --> 2022-08-15 23:41:54  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:43:56 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:43:56 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:43:56 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:43:56 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:44:18 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:44:18 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:44:18 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:45:18 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:45:18 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:45:18 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:45:56 -- 开始进行定位
+
+
+2022-08-15 23:45:57 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:45:57 -- 上次定位结果的时间 --> 2022-08-15 23:43:56  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:45:57 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:45:57 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:45:57 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:45:57 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:46:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:46:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:46:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:46:48 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:46:48 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:46:48 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:47:30 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:47:30 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:47:30 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:47:57 -- 开始进行定位
+
+
+2022-08-15 23:47:58 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:47:58 -- 上次定位结果的时间 --> 2022-08-15 23:45:57  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:47:58 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:47:58 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:47:58 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:47:58 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:48:33 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:48:33 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:48:34 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:49:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:49:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:49:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:49:57 -- 开始进行定位
+
+
+2022-08-15 23:49:59 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:49:59 -- 上次定位结果的时间 --> 2022-08-15 23:47:58  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:49:59 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:49:59 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:49:59 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:49:59 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:50:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:50:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:50:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:51:23 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:51:24 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:51:24 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:51:58 -- 开始进行定位
+
+
+2022-08-15 23:52:01 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:52:01 -- 上次定位结果的时间 --> 2022-08-15 23:49:59  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:52:01 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:52:01 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:52:01 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:52:01 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:52:14 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:52:14 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:52:14 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:52:35 -- AppInit  process --> ProcessInfo(pid=5031, uid=5031, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-15 23:53:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:53:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:53:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:53:50 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:53:50 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:53:50 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:54:00 -- 开始进行定位
+
+
+2022-08-15 23:54:02 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:54:02 -- 上次定位结果的时间 --> 2022-08-15 23:52:01  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:54:02 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:54:02 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:54:02 -- 开始进行定位
+
+
+2022-08-15 23:54:02 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:54:02 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:54:07 -- 获得定位结果  latitude=31.183659#longitude=121.639952#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8ecd87e0358f4e12bb6d7b75de0ccefd#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-19  time --> 1660577993841
+
+
+2022-08-15 23:54:07 -- 上次定位结果的时间 --> 2022-08-15 23:52:01  本次定位结果的时间 --> 2022-08-15 23:39:53
+
+
+2022-08-15 23:54:07 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-15 23:54:07 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:54:07 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:54:07 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-15 23:54:07 -- 定位成功后台智能定位成功 121.639952  --  31.183659  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-15 23:55:03 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:55:03 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:55:03 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:56:00 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:56:00 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:56:00 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:56:03 -- 开始进行定位
+
+
+2022-08-15 23:56:04 -- 获得定位结果  latitude=31.183355#longitude=121.639802#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:5a7371a90a6d408a96dd4af9a984b474#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-66  time --> 1660578964829
+
+
+2022-08-15 23:56:04 -- 上次定位结果的时间 --> 2022-08-15 23:54:07  本次定位结果的时间 --> 2022-08-15 23:56:04
+
+
+2022-08-15 23:56:04 -- 判断没有发生移动 两次定位距离 --> 36.691605  目前距离 --> 100  
+
+
+2022-08-15 23:56:04 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:56:04 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:56:04 -- 定位成功后台智能定位成功 121.639802  --  31.183355  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 100.0
+
+
+2022-08-15 23:57:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:57:07 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:57:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:57:58 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:57:58 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-15 23:57:58 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:58:03 -- 开始进行定位
+
+
+2022-08-15 23:58:04 -- 获得定位结果  latitude=31.183357#longitude=121.639802#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:33d1804049ab44a385debae361d23a13#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-67  time --> 1660579084760
+
+
+2022-08-15 23:58:04 -- 上次定位结果的时间 --> 2022-08-15 23:56:04  本次定位结果的时间 --> 2022-08-15 23:58:04
+
+
+2022-08-15 23:58:04 -- 判断没有发生移动 两次定位距离 --> 0.22238988  目前距离 --> 100  
+
+
+2022-08-15 23:58:04 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-15 23:58:04 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-15 23:58:04 -- 定位成功后台智能定位成功 121.639802  --  31.183357  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 100.0
+
+
+2022-08-15 23:58:57 -- 检测到KeepLiveService被杀死
+
+
+2022-08-15 23:58:57 -- KeepLiveService  onStartCommand
+
+
+2022-08-15 23:58:57 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:00:01 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:00:01 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:00:01 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:00:04 -- 开始进行定位
+
+
+2022-08-16 00:00:06 -- 获得定位结果  latitude=31.183357#longitude=121.639802#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:33d1804049ab44a385debae361d23a13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-67  time --> 1660579084760
+
+
+2022-08-16 00:00:06 -- 上次定位结果的时间 --> 2022-08-15 23:58:04  本次定位结果的时间 --> 2022-08-15 23:58:04
+
+
+2022-08-16 00:00:06 -- 开始进行定位
+
+
+2022-08-16 00:00:06 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:00:06 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:00:06 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:00:06 -- 定位成功后台智能定位成功 121.639802  --  31.183357  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 100.0
+
+
+2022-08-16 00:00:08 -- 获得定位结果  latitude=31.183357#longitude=121.639802#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:33d1804049ab44a385debae361d23a13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-67  time --> 1660579084760
+
+
+2022-08-16 00:00:08 -- 上次定位结果的时间 --> 2022-08-15 23:58:04  本次定位结果的时间 --> 2022-08-15 23:58:04
+
+
+2022-08-16 00:00:08 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:00:08 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:00:08 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:00:08 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 00:00:08 -- 定位成功后台智能定位成功 121.639802  --  31.183357  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 100.0
+
+
+2022-08-16 00:00:57 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:00:57 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:00:57 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:01:59 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:01:59 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:01:59 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:02:07 -- 开始进行定位
+
+
+2022-08-16 00:02:07 -- 获得定位结果  latitude=31.183357#longitude=121.639802#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:33d1804049ab44a385debae361d23a13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-67  time --> 1660579084760
+
+
+2022-08-16 00:02:07 -- 上次定位结果的时间 --> 2022-08-16 00:00:08  本次定位结果的时间 --> 2022-08-15 23:58:04
+
+
+2022-08-16 00:02:07 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:02:07 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:02:07 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:02:07 -- 定位成功后台智能定位成功 121.639802  --  31.183357  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 100.0
+
+
+2022-08-16 00:02:57 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:02:57 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:02:57 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:03:37 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:03:37 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:03:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:04:07 -- 开始进行定位
+
+
+2022-08-16 00:04:09 -- 获得定位结果  latitude=31.183393#longitude=121.639802#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:f681a16cf34044ccabad3a8235511096#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-57  time --> 1660579450252
+
+
+2022-08-16 00:04:09 -- 上次定位结果的时间 --> 2022-08-16 00:02:07  本次定位结果的时间 --> 2022-08-16 00:04:10
+
+
+2022-08-16 00:04:09 -- 判断没有发生移动 两次定位距离 --> 4.003018  目前距离 --> 100  
+
+
+2022-08-16 00:04:09 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:04:09 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:04:09 -- 定位成功后台智能定位成功 121.639802  --  31.183393  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-16 00:04:12 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:04:12 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:04:12 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:04:50 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:04:50 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:04:50 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:05:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:05:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:05:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:05:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:05:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:05:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:06:08 -- 开始进行定位
+
+
+2022-08-16 00:06:10 -- 获得定位结果  latitude=31.183344#longitude=121.639848#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:e486bf39db874811a4ef6c29499fe750#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-46  time --> 1660579570833
+
+
+2022-08-16 00:06:10 -- 上次定位结果的时间 --> 2022-08-16 00:04:09  本次定位结果的时间 --> 2022-08-16 00:06:10
+
+
+2022-08-16 00:06:10 -- 判断没有发生移动 两次定位距离 --> 6.9882383  目前距离 --> 100  
+
+
+2022-08-16 00:06:10 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:06:10 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:06:10 -- 定位成功后台智能定位成功 121.639848  --  31.183344  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 175.0
+
+
+2022-08-16 00:06:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:06:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:06:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:06:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:06:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:06:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:07:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:07:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:07:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:07:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:07:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:07:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:08:09 -- 开始进行定位
+
+
+2022-08-16 00:08:11 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:08:11 -- 上次定位结果的时间 --> 2022-08-16 00:06:10  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:08:11 -- 判断没有发生移动 两次定位距离 --> 30.93665  目前距离 --> 100  
+
+
+2022-08-16 00:08:11 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:08:11 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:08:11 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:08:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:08:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:08:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:08:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:08:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:08:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:09:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:09:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:09:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:09:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:09:52 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:09:52 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:10:10 -- 开始进行定位
+
+
+2022-08-16 00:10:12 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:10:12 -- 上次定位结果的时间 --> 2022-08-16 00:08:11  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:10:12 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:10:12 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:10:12 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:10:12 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:10:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:10:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:10:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:11:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:11:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:11:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:12:04 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:12:04 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:12:04 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:12:12 -- 开始进行定位
+
+
+2022-08-16 00:12:13 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:12:13 -- 上次定位结果的时间 --> 2022-08-16 00:10:12  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:12:13 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:12:13 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:12:13 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:12:13 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:13:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:13:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:13:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:13:42 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:13:42 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:13:42 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:14:12 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:14:12 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:14:12 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:14:15 -- 开始进行定位
+
+
+2022-08-16 00:14:16 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:14:16 -- 上次定位结果的时间 --> 2022-08-16 00:12:13  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:14:16 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:14:16 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:14:16 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:14:16 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:15:16 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:15:16 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:15:16 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:16:16 -- 开始进行定位
+
+
+2022-08-16 00:16:17 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:16:17 -- 上次定位结果的时间 --> 2022-08-16 00:14:16  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:16:17 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:16:17 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:16:17 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:16:17 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:16:25 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:16:25 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:16:25 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:17:23 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:17:23 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:17:23 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:18:18 -- 开始进行定位
+
+
+2022-08-16 00:18:19 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:18:19 -- 上次定位结果的时间 --> 2022-08-16 00:16:17  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:18:19 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:18:19 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:18:19 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:18:19 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:18:34 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:18:34 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:18:34 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:19:48 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:19:48 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:19:48 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:20:18 -- 开始进行定位
+
+
+2022-08-16 00:20:19 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:20:19 -- 上次定位结果的时间 --> 2022-08-16 00:18:19  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:20:19 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:20:19 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:20:19 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:20:19 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:20:59 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:20:59 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:20:59 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:22:07 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:22:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:22:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:22:20 -- 开始进行定位
+
+
+2022-08-16 00:22:21 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:22:21 -- 上次定位结果的时间 --> 2022-08-16 00:20:19  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:22:21 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:22:21 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:22:21 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:22:21 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:23:23 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:23:23 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:23:23 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:24:21 -- 开始进行定位
+
+
+2022-08-16 00:24:22 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:24:22 -- 上次定位结果的时间 --> 2022-08-16 00:22:21  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:24:22 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:24:22 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:24:22 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:24:22 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:24:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:24:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:24:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:25:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:25:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:25:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:26:22 -- 开始进行定位
+
+
+2022-08-16 00:26:24 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:26:24 -- 上次定位结果的时间 --> 2022-08-16 00:24:22  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:26:24 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:26:24 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:26:24 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:26:24 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:26:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:26:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:26:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:27:49 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:27:49 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:27:49 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:28:24 -- 开始进行定位
+
+
+2022-08-16 00:28:25 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:28:25 -- 上次定位结果的时间 --> 2022-08-16 00:26:24  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:28:25 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:28:25 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:28:25 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:28:25 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:28:55 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:28:55 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:28:55 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:30:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:30:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:30:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:30:25 -- 开始进行定位
+
+
+2022-08-16 00:30:27 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:30:27 -- 上次定位结果的时间 --> 2022-08-16 00:28:25  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:30:27 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:30:27 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:30:27 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:30:27 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:31:17 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:31:17 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:31:17 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:32:24 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:32:24 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:32:24 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:32:27 -- 开始进行定位
+
+
+2022-08-16 00:32:28 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:32:28 -- 上次定位结果的时间 --> 2022-08-16 00:30:27  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:32:28 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:32:28 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:32:28 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:32:28 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:33:22 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:33:22 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:33:22 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:34:30 -- 开始进行定位
+
+
+2022-08-16 00:34:31 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:34:31 -- 上次定位结果的时间 --> 2022-08-16 00:32:28  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:34:31 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:34:31 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:34:31 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:34:31 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:34:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:34:32 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:34:32 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:34:45 -- AppInit  process --> ProcessInfo(pid=16046, uid=16046, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 00:35:41 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:35:41 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:35:41 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:36:32 -- 开始进行定位
+
+
+2022-08-16 00:36:33 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:36:33 -- 上次定位结果的时间 --> 2022-08-16 00:34:31  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:36:33 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:36:33 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:36:33 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:36:33 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:36:49 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:36:49 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:36:49 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:37:53 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:37:53 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:37:53 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:38:33 -- 开始进行定位
+
+
+2022-08-16 00:38:35 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:38:35 -- 上次定位结果的时间 --> 2022-08-16 00:36:33  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:38:35 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:38:35 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:38:35 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:38:35 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:38:55 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:38:55 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:38:55 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:39:52 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:39:53 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:39:53 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:40:33 -- 开始进行定位
+
+
+2022-08-16 00:40:35 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:40:35 -- 上次定位结果的时间 --> 2022-08-16 00:38:35  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:40:35 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:40:35 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:40:35 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:40:35 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:40:40 -- AppInit  process --> ProcessInfo(pid=17051, uid=17051, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 00:40:41 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:40:41 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:40:41 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:41:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:41:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:41:36 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:42:31 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:42:31 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:42:31 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:42:34 -- 开始进行定位
+
+
+2022-08-16 00:42:36 -- 获得定位结果  latitude=31.18362#longitude=121.639807#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:58e03e126be1409b8afb5a00b8604b13#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-32  time --> 1660579691633
+
+
+2022-08-16 00:42:36 -- 上次定位结果的时间 --> 2022-08-16 00:40:35  本次定位结果的时间 --> 2022-08-16 00:08:11
+
+
+2022-08-16 00:42:36 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:42:36 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:42:36 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:42:36 -- 定位成功后台智能定位成功 121.639807  --  31.18362  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 75.0
+
+
+2022-08-16 00:43:20 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:43:21 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:43:21 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:44:32 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:44:33 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:44:33 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:44:34 -- 开始进行定位
+
+
+2022-08-16 00:44:34 -- 获得定位结果  latitude=31.183721#longitude=121.639886#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8555e1cc5f8f4b76a78296c4dcf198c7#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-62  time --> 1660581875376
+
+
+2022-08-16 00:44:34 -- 上次定位结果的时间 --> 2022-08-16 00:42:36  本次定位结果的时间 --> 2022-08-16 00:44:35
+
+
+2022-08-16 00:44:34 -- 判断没有发生移动 两次定位距离 --> 13.513178  目前距离 --> 100  
+
+
+2022-08-16 00:44:34 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:44:34 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:44:34 -- 定位成功后台智能定位成功 121.639886  --  31.183721  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-16 00:45:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:45:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:45:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:46:34 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:46:34 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:46:34 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:46:35 -- 开始进行定位
+
+
+2022-08-16 00:46:35 -- 获得定位结果  latitude=31.183721#longitude=121.639886#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8555e1cc5f8f4b76a78296c4dcf198c7#description=在Lisa·舞蹈&瑜伽附近#locationType=2#conScenario=-62  time --> 1660581875376
+
+
+2022-08-16 00:46:35 -- 上次定位结果的时间 --> 2022-08-16 00:44:34  本次定位结果的时间 --> 2022-08-16 00:44:35
+
+
+2022-08-16 00:46:36 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:46:36 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:46:36 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:46:36 -- 定位成功后台智能定位成功 121.639886  --  31.183721  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-16 00:47:41 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:47:41 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:47:41 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:48:36 -- 开始进行定位
+
+
+2022-08-16 00:48:38 -- 获得定位结果  latitude=31.183721#longitude=121.639886#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区孙建路790号靠近Lisa·舞蹈&瑜伽#country=中国#road=孙建路#poiName=Lisa·舞蹈&瑜伽#street=孙建路#streetNum=790号#aoiName=申城佳苑二期A块#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2djcGtmaGRjZmFhYTRmZTZjZmRmYjJjNDg1M2U1LFl2cFhMMy9ESWpBREFOMURaQzdiTjBaMQ==#csid:8a4bb4c513e04a0cbfc0cf86ef94d9dd#description=在Lisa·舞蹈&瑜伽附近#locationType=5#conScenario=-62  time --> 1660582118420
+
+
+2022-08-16 00:48:38 -- 上次定位结果的时间 --> 2022-08-16 00:46:36  本次定位结果的时间 --> 2022-08-16 00:48:38
+
+
+2022-08-16 00:48:38 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 00:48:38 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 00:48:38 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 00:48:38 -- 定位成功后台智能定位成功 121.639886  --  31.183721  address --> 孙建路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 50.0
+
+
+2022-08-16 00:48:44 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:48:44 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:48:44 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
+
+
+2022-08-16 00:49:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 00:49:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 00:49:36 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f017fac
