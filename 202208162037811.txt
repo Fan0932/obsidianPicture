@@ -1,0 +1,4036 @@
+
+
+
+2022-08-16 10:00:01 -- AppInit  process --> ProcessInfo(pid=25564, uid=25564, name=app.tikteam.bind, simpleName={default})  是否是前台 --> false
+
+
+2022-08-16 10:00:03 -- AppInit  process --> ProcessInfo(pid=25903, uid=25903, name=app.tikteam.bind:Notification, simpleName=Notification)  是否是前台 --> false
+
+
+2022-08-16 10:00:05 -- KeepLiveService 初次初始化
+
+
+2022-08-16 10:00:05 -- KeepLiveService  onCreate
+
+
+2022-08-16 10:00:05 -- NotificationService  onCreate
+
+
+2022-08-16 10:00:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:00:05 -- NotificationService  onStartCommand  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@a0c412d
+
+
+2022-08-16 10:00:05 -- !!!!!!!开启智能定位  sDisposable --> null
+
+
+2022-08-16 10:00:06 -- 未登录，不进行上报
+
+
+2022-08-16 10:00:07 -- 开始进行定位
+
+
+2022-08-16 10:00:08 -- 获得定位结果  latitude=0.0#longitude=0.0#province=#coordType=GCJ02#city=#district=#cityCode=#adCode=#address=#country=#road=#poiName=#street=#streetNum=#aoiName=#poiid=#floor=#errorCode=12#errorInfo=缺少定位权限#locationDetail=定位权限被禁用,请授予应用定位权限#1201#description=#locationType=0#conScenario=0  time --> 0
+
+
+2022-08-16 10:00:08 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:00:08 -- 请求定位失败 error --> 12  info --> 缺少定位权限 请到http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明,错误详细信息:定位权限被禁用,请授予应用定位权限#1201
+
+
+2022-08-16 10:00:12 -- AppInit  process --> ProcessInfo(pid=27009, uid=27009, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 10:00:26 -- 监听获取到了定位权限，立即进行一次定位
+
+
+2022-08-16 10:00:27 -- 开始进行定位
+
+
+2022-08-16 10:00:29 -- 获得定位结果  latitude=31.200856#longitude=121.603018#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:409a5f58e39d4372a619068c0196ec82#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660615230324
+
+
+2022-08-16 10:00:29 -- 查询定位列表为空
+
+
+2022-08-16 10:00:29 -- 上次定位结果为空
+
+
+2022-08-16 10:00:29 -- 更新定位信息列表  长度 --> 1
+
+
+2022-08-16 10:00:29 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:00:29 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 10:00:29 -- 定位成功后台智能定位成功 121.603018  --  31.200856  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 51.0
+
+
+2022-08-16 10:00:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:00:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:00:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5aa857c
+
+
+2022-08-16 10:00:51 -- 监听到充电状态发生改变 --> ACTION_POWER_DISCONNECTED
+
+
+2022-08-16 10:00:56 -- 监听到网络状态发送改变  NETWORK_5G  2022-08-16 10:00:56
+
+
+2022-08-16 10:00:56 -- 两次发生移动间隔时间过短，过滤掉  本次时间 --> 2022-08-16 10:00:56  上次时间 --> 2022-08-16 10:00:28
+
+
+2022-08-16 10:01:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:01:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:01:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5aa857c
+
+
+2022-08-16 10:01:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:01:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:01:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5aa857c
+
+
+2022-08-16 10:01:54 -- 监听到充电状态发生改变 --> ACTION_POWER_CONNECTED
+
+
+2022-08-16 10:02:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:02:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:02:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5aa857c
+
+
+2022-08-16 10:02:12 -- AppInit  process --> ProcessInfo(pid=29797, uid=29797, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 10:02:28 -- 开始进行定位
+
+
+2022-08-16 10:02:29 -- 获得定位结果  latitude=31.200856#longitude=121.603018#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:409a5f58e39d4372a619068c0196ec82#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615230324
+
+
+2022-08-16 10:02:29 -- 上次定位结果的时间 --> 2022-08-16 10:00:29  本次定位结果的时间 --> 2022-08-16 10:00:30
+
+
+2022-08-16 10:02:29 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:02:29 -- 更新定位信息列表  长度 --> 2
+
+
+2022-08-16 10:02:29 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Hight_Accuracy 间隔时间 --> 120秒
+
+
+2022-08-16 10:02:29 -- 定位成功后台智能定位成功 121.603018  --  31.200856  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 51.0
+
+
+2022-08-16 10:02:34 -- AppInit  process --> ProcessInfo(pid=30167, uid=30167, name=app.tikteam.bind, simpleName={default})  是否是前台 --> false
+
+
+2022-08-16 10:02:35 -- AppInit  process --> ProcessInfo(pid=30571, uid=30571, name=app.tikteam.bind:Notification, simpleName=Notification)  是否是前台 --> false
+
+
+2022-08-16 10:02:35 -- KeepLiveService 初次初始化
+
+
+2022-08-16 10:02:35 -- NotificationService  onCreate
+
+
+2022-08-16 10:02:35 -- NotificationService  onStartCommand  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7fde07b
+
+
+2022-08-16 10:02:36 -- KeepLiveService  onCreate
+
+
+2022-08-16 10:02:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:02:36 -- !!!!!!!开启智能定位  sDisposable --> null
+
+
+2022-08-16 10:02:37 -- 开始进行定位
+
+
+2022-08-16 10:02:37 -- 获得定位结果  latitude=31.200861#longitude=121.603011#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:6bf7f2326b4a45558d038a910cd4483a#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660615358270
+
+
+2022-08-16 10:02:37 -- 查询定位列表为空
+
+
+2022-08-16 10:02:37 -- 上次定位结果为空
+
+
+2022-08-16 10:02:37 -- 更新定位信息列表  长度 --> 1
+
+
+2022-08-16 10:02:37 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:02:37 -- 定位成功后台智能定位成功 121.603011  --  31.200861  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 34.0
+
+
+2022-08-16 10:02:45 -- AppInit  process --> ProcessInfo(pid=31087, uid=31087, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 10:03:03 -- 监听到充电状态发生改变 --> ACTION_POWER_DISCONNECTED
+
+
+2022-08-16 10:03:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:03:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:03:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:03:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:03:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:03:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:04:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:04:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:04:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:04:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:04:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:04:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:04:37 -- 开始进行定位
+
+
+2022-08-16 10:04:43 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:04:43 -- 上次定位结果的时间 --> 2022-08-16 10:02:37  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:04:43 -- 判断没有发生移动 两次定位距离 --> 2.4039729  目前距离 --> 100  
+
+
+2022-08-16 10:04:43 -- 更新定位信息列表  长度 --> 2
+
+
+2022-08-16 10:04:43 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:04:43 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:05:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:05:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:05:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:05:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:05:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:05:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:06:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:06:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:06:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:06:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:06:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:06:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:06:38 -- 开始进行定位
+
+
+2022-08-16 10:06:39 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:06:39 -- 上次定位结果的时间 --> 2022-08-16 10:04:43  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:06:39 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:06:39 -- 更新定位信息列表  长度 --> 3
+
+
+2022-08-16 10:06:39 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:06:39 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:07:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:07:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:07:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:07:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:07:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:07:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:08:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:08:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:08:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:08:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:08:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:08:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:08:39 -- 开始进行定位
+
+
+2022-08-16 10:08:40 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:08:40 -- 上次定位结果的时间 --> 2022-08-16 10:06:39  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:08:40 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:08:40 -- 更新定位信息列表  长度 --> 4
+
+
+2022-08-16 10:08:40 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:08:40 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:09:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:09:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:09:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:09:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:09:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:09:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:10:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:10:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:10:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:10:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:10:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:10:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:10:39 -- 开始进行定位
+
+
+2022-08-16 10:10:40 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:10:40 -- 上次定位结果的时间 --> 2022-08-16 10:08:40  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:10:40 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:10:40 -- 更新定位信息列表  长度 --> 5
+
+
+2022-08-16 10:10:40 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:10:40 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:11:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:11:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:11:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:11:31 -- AppInit  process --> ProcessInfo(pid=3686, uid=3686, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 10:11:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:11:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:11:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:12:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:12:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:12:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:12:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:12:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:12:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:12:40 -- 开始进行定位
+
+
+2022-08-16 10:12:41 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:12:41 -- 上次定位结果的时间 --> 2022-08-16 10:10:40  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:12:41 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:12:41 -- 更新定位信息列表  长度 --> 6
+
+
+2022-08-16 10:12:41 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:12:41 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:13:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:13:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:13:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:13:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:13:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:13:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:14:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:14:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:14:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:14:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:14:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:14:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:14:40 -- 开始进行定位
+
+
+2022-08-16 10:14:41 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:14:41 -- 上次定位结果的时间 --> 2022-08-16 10:12:41  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:14:41 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:14:41 -- 更新定位信息列表  长度 --> 7
+
+
+2022-08-16 10:14:41 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:14:41 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:15:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:15:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:15:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:15:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:15:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:15:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:16:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:16:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:16:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:16:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:16:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:16:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:16:41 -- 开始进行定位
+
+
+2022-08-16 10:16:42 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:16:42 -- 开始进行定位
+
+
+2022-08-16 10:16:42 -- 上次定位结果的时间 --> 2022-08-16 10:14:41  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:16:42 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:16:42 -- 更新定位信息列表  长度 --> 8
+
+
+2022-08-16 10:16:42 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:16:42 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:16:44 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:16:44 -- 上次定位结果的时间 --> 2022-08-16 10:14:41  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:16:44 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:16:44 -- 更新定位信息列表  长度 --> 9
+
+
+2022-08-16 10:16:44 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:16:44 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 10:16:44 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:17:05 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:17:05 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:17:05 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:17:35 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:17:35 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:17:35 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:18:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:18:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:18:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:18:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:18:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:18:36 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:18:42 -- 开始进行定位
+
+
+2022-08-16 10:18:43 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:18:43 -- 上次定位结果的时间 --> 2022-08-16 10:16:44  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:18:43 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:18:43 -- 更新定位信息列表  长度 --> 10
+
+
+2022-08-16 10:18:43 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:18:43 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:19:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:19:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:19:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:19:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:19:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:19:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:20:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:20:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:20:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:20:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:20:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:20:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:20:42 -- 开始进行定位
+
+
+2022-08-16 10:20:43 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:20:43 -- 上次定位结果的时间 --> 2022-08-16 10:18:43  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:20:43 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:20:43 -- 更新定位信息列表  长度 --> 11
+
+
+2022-08-16 10:20:43 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:20:43 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:21:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:21:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:21:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:21:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:21:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:21:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:22:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:22:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:22:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:22:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:22:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:22:36 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:22:43 -- 开始进行定位
+
+
+2022-08-16 10:22:44 -- 开始进行定位
+
+
+2022-08-16 10:22:44 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:22:44 -- 上次定位结果的时间 --> 2022-08-16 10:20:43  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:22:44 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:22:44 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:22:44 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:22:44 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:22:46 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:22:46 -- 上次定位结果的时间 --> 2022-08-16 10:20:43  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:22:46 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:22:46 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:22:46 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:22:46 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 10:22:46 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:23:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:23:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:23:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:23:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:23:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:23:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:24:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:24:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:24:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:24:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:24:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:24:37 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:24:44 -- 开始进行定位
+
+
+2022-08-16 10:24:45 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:24:45 -- 上次定位结果的时间 --> 2022-08-16 10:22:46  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:24:45 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:24:45 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:24:45 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:24:45 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:25:06 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:25:06 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:25:06 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:25:36 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:25:36 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:25:36 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:26:07 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:26:07 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:26:07 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:26:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:26:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:26:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:26:44 -- 开始进行定位
+
+
+2022-08-16 10:26:45 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:26:45 -- 上次定位结果的时间 --> 2022-08-16 10:24:45  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:26:45 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:26:45 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:26:45 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:26:45 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:27:01 -- AppInit  process --> ProcessInfo(pid=6371, uid=6371, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 10:27:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:27:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:27:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:27:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:27:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:27:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:28:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:28:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:28:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:28:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:28:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:28:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:28:44 -- 开始进行定位
+
+
+2022-08-16 10:28:45 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:28:45 -- 上次定位结果的时间 --> 2022-08-16 10:26:45  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:28:45 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:28:45 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:28:45 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:28:45 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:29:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:29:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:29:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:29:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:29:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:29:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:30:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:30:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:30:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:30:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:30:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:30:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:30:45 -- 开始进行定位
+
+
+2022-08-16 10:30:47 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:30:47 -- 上次定位结果的时间 --> 2022-08-16 10:28:45  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:30:47 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:30:47 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:30:47 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:30:47 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:31:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:31:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:31:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:31:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:31:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:31:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:32:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:32:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:32:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:32:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:32:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:32:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:32:46 -- 开始进行定位
+
+
+2022-08-16 10:32:47 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:32:47 -- 上次定位结果的时间 --> 2022-08-16 10:30:47  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:32:47 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:32:47 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:32:47 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:32:47 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:33:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:33:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:33:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:33:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:33:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:33:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:34:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:34:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:34:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:34:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:34:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:34:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:34:47 -- 开始进行定位
+
+
+2022-08-16 10:34:47 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:34:47 -- 上次定位结果的时间 --> 2022-08-16 10:32:47  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:34:47 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:34:47 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:34:47 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:34:47 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:35:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:35:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:35:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:35:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:35:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:35:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:36:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:36:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:36:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:36:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:36:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:36:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:36:48 -- 开始进行定位
+
+
+2022-08-16 10:36:48 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:36:48 -- 上次定位结果的时间 --> 2022-08-16 10:34:47  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:36:48 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:36:48 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:36:48 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:36:48 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:37:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:37:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:37:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:37:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:37:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:37:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:38:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:38:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:38:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:38:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:38:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:38:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:38:48 -- 开始进行定位
+
+
+2022-08-16 10:38:48 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:38:48 -- 上次定位结果的时间 --> 2022-08-16 10:36:48  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:38:48 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:38:48 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:38:48 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:38:48 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:39:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:39:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:39:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:39:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:39:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:39:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:40:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:40:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:40:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:40:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:40:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:40:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:40:48 -- 开始进行定位
+
+
+2022-08-16 10:40:48 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:40:48 -- 上次定位结果的时间 --> 2022-08-16 10:38:48  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:40:48 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:40:48 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:40:48 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:40:48 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:41:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:41:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:41:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:41:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:41:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:41:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:42:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:42:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:42:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:42:38 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:42:38 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:42:38 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:42:48 -- 开始进行定位
+
+
+2022-08-16 10:42:48 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:42:48 -- 上次定位结果的时间 --> 2022-08-16 10:40:48  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:42:48 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:42:48 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:42:48 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:42:48 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:43:08 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:43:08 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:43:08 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:43:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:43:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:43:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:44:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:44:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:44:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:44:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:44:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:44:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:44:48 -- 开始进行定位
+
+
+2022-08-16 10:44:49 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:44:49 -- 上次定位结果的时间 --> 2022-08-16 10:42:48  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:44:49 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:44:49 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:44:49 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:44:49 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:45:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:45:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:45:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:45:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:45:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:45:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:46:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:46:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:46:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:46:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:46:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:46:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:46:49 -- 开始进行定位
+
+
+2022-08-16 10:46:50 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:46:50 -- 上次定位结果的时间 --> 2022-08-16 10:44:49  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:46:50 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:46:50 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:46:50 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:46:50 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:47:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:47:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:47:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:47:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:47:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:47:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:48:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:48:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:48:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:48:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:48:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:48:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:48:49 -- 开始进行定位
+
+
+2022-08-16 10:48:50 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:48:50 -- 上次定位结果的时间 --> 2022-08-16 10:46:50  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:48:50 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:48:50 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:48:50 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:48:50 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:49:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:49:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:49:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:49:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:49:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:49:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:50:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:50:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:50:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:50:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:50:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:50:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:50:50 -- 开始进行定位
+
+
+2022-08-16 10:50:51 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:50:51 -- 上次定位结果的时间 --> 2022-08-16 10:48:50  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:50:51 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:50:51 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:50:51 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:50:51 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:51:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:51:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:51:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:51:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:51:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:51:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:52:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:52:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:52:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:52:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:52:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:52:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:52:50 -- 开始进行定位
+
+
+2022-08-16 10:52:51 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:52:51 -- 上次定位结果的时间 --> 2022-08-16 10:50:51  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:52:51 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:52:51 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:52:51 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:52:51 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:53:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:53:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:53:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:53:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:53:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:53:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:54:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:54:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:54:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:54:18 -- AppInit  process --> ProcessInfo(pid=8202, uid=8202, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 10:54:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:54:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:54:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:54:51 -- 开始进行定位
+
+
+2022-08-16 10:54:52 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:54:52 -- 上次定位结果的时间 --> 2022-08-16 10:52:51  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:54:52 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:54:52 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:54:52 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:54:52 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:55:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:55:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:55:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:55:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:55:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:55:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:56:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:56:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:56:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:56:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:56:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:56:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:56:52 -- 开始进行定位
+
+
+2022-08-16 10:56:53 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:56:53 -- 上次定位结果的时间 --> 2022-08-16 10:54:52  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:56:53 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:56:53 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:56:53 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:56:53 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:57:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:57:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:57:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:57:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:57:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:57:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:58:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:58:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:58:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:58:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:58:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:58:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:58:53 -- 开始进行定位
+
+
+2022-08-16 10:58:54 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 10:58:54 -- 上次定位结果的时间 --> 2022-08-16 10:56:53  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 10:58:54 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 10:58:54 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 10:58:54 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 10:58:54 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 10:59:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:59:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:59:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 10:59:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 10:59:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 10:59:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:00:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:00:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:00:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:00:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:00:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:00:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:00:54 -- 开始进行定位
+
+
+2022-08-16 11:00:55 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 11:00:55 -- 上次定位结果的时间 --> 2022-08-16 10:58:54  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 11:00:55 -- 开始进行定位
+
+
+2022-08-16 11:00:55 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:00:55 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:00:55 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:00:55 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 11:00:57 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 11:00:57 -- 上次定位结果的时间 --> 2022-08-16 10:58:54  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 11:00:57 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:00:57 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:00:57 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:00:57 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 11:00:57 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 11:01:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:01:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:01:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:01:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:01:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:01:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:02:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:02:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:02:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:02:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:02:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:02:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:02:55 -- 开始进行定位
+
+
+2022-08-16 11:02:56 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 11:02:56 -- 上次定位结果的时间 --> 2022-08-16 11:00:57  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 11:02:56 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:02:56 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:02:56 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:02:56 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 11:03:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:03:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:03:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:03:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:03:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:03:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:04:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:04:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:04:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:04:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:04:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:04:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:04:56 -- 开始进行定位
+
+
+2022-08-16 11:04:57 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 11:04:57 -- 开始进行定位
+
+
+2022-08-16 11:04:57 -- 上次定位结果的时间 --> 2022-08-16 11:02:56  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 11:04:57 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:04:57 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:04:57 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:04:57 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 11:04:59 -- 获得定位结果  latitude=31.200879#longitude=121.602997#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:989dcca2492d442da59a847ff27566a6#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660615484293
+
+
+2022-08-16 11:04:59 -- 上次定位结果的时间 --> 2022-08-16 11:02:56  本次定位结果的时间 --> 2022-08-16 10:04:44
+
+
+2022-08-16 11:04:59 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:04:59 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:04:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:04:59 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 11:04:59 -- 定位成功后台智能定位成功 121.602997  --  31.200879  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 38.0
+
+
+2022-08-16 11:05:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:05:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:05:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:05:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:05:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:05:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:06:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:06:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:06:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:06:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:06:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:06:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:06:57 -- 开始进行定位
+
+
+2022-08-16 11:06:59 -- 获得定位结果  latitude=31.200858#longitude=121.603013#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:5311e1f27aa44bd9bb08b7ab05c19a11#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660619219721
+
+
+2022-08-16 11:06:59 -- 上次定位结果的时间 --> 2022-08-16 11:04:59  本次定位结果的时间 --> 2022-08-16 11:06:59
+
+
+2022-08-16 11:06:59 -- 判断没有发生移动 两次定位距离 --> 2.7871993  目前距离 --> 100  
+
+
+2022-08-16 11:06:59 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:06:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:06:59 -- 定位成功后台智能定位成功 121.603013  --  31.200858  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 34.0
+
+
+2022-08-16 11:07:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:07:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:07:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:07:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:07:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:07:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:08:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:08:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:08:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:08:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:08:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:08:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:08:57 -- 开始进行定位
+
+
+2022-08-16 11:08:59 -- 获得定位结果  latitude=31.200871#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:2ce5928145304d19a1040e57610c291c#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660619339719
+
+
+2022-08-16 11:08:59 -- 上次定位结果的时间 --> 2022-08-16 11:06:59  本次定位结果的时间 --> 2022-08-16 11:08:59
+
+
+2022-08-16 11:08:59 -- 判断没有发生移动 两次定位距离 --> 1.6799726  目前距离 --> 100  
+
+
+2022-08-16 11:08:59 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:08:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:08:59 -- 定位成功后台智能定位成功 121.603004  --  31.200871  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-16 11:09:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:09:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:09:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:09:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:09:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:09:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:10:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:10:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:10:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:10:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:10:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:10:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:10:58 -- 开始进行定位
+
+
+2022-08-16 11:10:59 -- 获得定位结果  latitude=31.200871#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:2ce5928145304d19a1040e57610c291c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660619339719
+
+
+2022-08-16 11:10:59 -- 上次定位结果的时间 --> 2022-08-16 11:08:59  本次定位结果的时间 --> 2022-08-16 11:08:59
+
+
+2022-08-16 11:10:59 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:10:59 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:10:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:10:59 -- 定位成功后台智能定位成功 121.603004  --  31.200871  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-16 11:11:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:11:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:11:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:11:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:11:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:11:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:12:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:12:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:12:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:12:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:12:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:12:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:12:58 -- 开始进行定位
+
+
+2022-08-16 11:12:59 -- 获得定位结果  latitude=31.200871#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:2ce5928145304d19a1040e57610c291c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660619339719
+
+
+2022-08-16 11:12:59 -- 上次定位结果的时间 --> 2022-08-16 11:10:59  本次定位结果的时间 --> 2022-08-16 11:08:59
+
+
+2022-08-16 11:12:59 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:12:59 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:12:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:12:59 -- 定位成功后台智能定位成功 121.603004  --  31.200871  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-16 11:13:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:13:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:13:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:13:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:13:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:13:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:14:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:14:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:14:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:14:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:14:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:14:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:14:59 -- 开始进行定位
+
+
+2022-08-16 11:15:00 -- 获得定位结果  latitude=31.200871#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:2ce5928145304d19a1040e57610c291c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660619339719
+
+
+2022-08-16 11:15:00 -- 上次定位结果的时间 --> 2022-08-16 11:12:59  本次定位结果的时间 --> 2022-08-16 11:08:59
+
+
+2022-08-16 11:15:00 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:15:00 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:15:00 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:15:00 -- 定位成功后台智能定位成功 121.603004  --  31.200871  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-16 11:15:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:15:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:15:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:15:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:15:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:15:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:16:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:16:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:16:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:16:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:16:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:16:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:17:00 -- 开始进行定位
+
+
+2022-08-16 11:17:01 -- 获得定位结果  latitude=31.200871#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:2ce5928145304d19a1040e57610c291c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660619339719
+
+
+2022-08-16 11:17:01 -- 上次定位结果的时间 --> 2022-08-16 11:15:00  本次定位结果的时间 --> 2022-08-16 11:08:59
+
+
+2022-08-16 11:17:01 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:17:01 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:17:01 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:17:01 -- 定位成功后台智能定位成功 121.603004  --  31.200871  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-16 11:17:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:17:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:17:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:17:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:17:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:17:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:18:05 -- AppInit  process --> ProcessInfo(pid=15285, uid=15285, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 11:18:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:18:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:18:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:18:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:18:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:18:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:19:01 -- 开始进行定位
+
+
+2022-08-16 11:19:03 -- 获得定位结果  latitude=31.200871#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:2ce5928145304d19a1040e57610c291c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660619339719
+
+
+2022-08-16 11:19:03 -- 上次定位结果的时间 --> 2022-08-16 11:17:01  本次定位结果的时间 --> 2022-08-16 11:08:59
+
+
+2022-08-16 11:19:03 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:19:03 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:19:03 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:19:03 -- 定位成功后台智能定位成功 121.603004  --  31.200871  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-16 11:19:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:19:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:19:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:19:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:19:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:19:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:20:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:20:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:20:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:20:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:20:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:20:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:21:02 -- 开始进行定位
+
+
+2022-08-16 11:21:04 -- 获得定位结果  latitude=31.200818#longitude=121.602975#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:9a432f72a28a41c0ab2a6ec1f20fee17#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660620064686
+
+
+2022-08-16 11:21:04 -- 上次定位结果的时间 --> 2022-08-16 11:19:03  本次定位结果的时间 --> 2022-08-16 11:21:04
+
+
+2022-08-16 11:21:04 -- 判断没有发生移动 两次定位距离 --> 6.506857  目前距离 --> 100  
+
+
+2022-08-16 11:21:04 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:21:04 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:21:04 -- 定位成功后台智能定位成功 121.602975  --  31.200818  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-16 11:21:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:21:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:21:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:21:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:21:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:21:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:22:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:22:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:22:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:22:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:22:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:22:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:23:02 -- 开始进行定位
+
+
+2022-08-16 11:23:04 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:23:04 -- 上次定位结果的时间 --> 2022-08-16 11:21:04  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:23:04 -- 判断没有发生移动 两次定位距离 --> 7.99067  目前距离 --> 100  
+
+
+2022-08-16 11:23:04 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:23:04 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:23:04 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:23:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:23:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:23:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:23:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:23:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:23:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:24:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:24:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:24:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:24:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:24:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:24:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:25:03 -- 开始进行定位
+
+
+2022-08-16 11:25:04 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:25:04 -- 上次定位结果的时间 --> 2022-08-16 11:23:04  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:25:04 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:25:04 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:25:04 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:25:04 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:25:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:25:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:25:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:25:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:25:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:25:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:26:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:26:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:26:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:26:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:26:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:26:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:27:03 -- 开始进行定位
+
+
+2022-08-16 11:27:04 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:27:04 -- 上次定位结果的时间 --> 2022-08-16 11:25:04  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:27:04 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:27:04 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:27:04 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:27:04 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:27:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:27:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:27:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:27:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:27:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:27:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:28:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:28:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:28:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:28:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:28:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:28:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:29:04 -- 开始进行定位
+
+
+2022-08-16 11:29:05 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:29:05 -- 上次定位结果的时间 --> 2022-08-16 11:27:04  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:29:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:29:05 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:29:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:29:05 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:29:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:29:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:29:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:29:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:29:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:29:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:30:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:30:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:30:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:30:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:30:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:30:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:31:04 -- 开始进行定位
+
+
+2022-08-16 11:31:05 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:31:05 -- 上次定位结果的时间 --> 2022-08-16 11:29:05  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:31:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:31:05 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:31:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:31:05 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:31:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:31:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:31:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:31:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:31:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:31:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:32:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:32:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:32:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:32:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:32:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:32:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:33:05 -- 开始进行定位
+
+
+2022-08-16 11:33:05 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:33:05 -- 上次定位结果的时间 --> 2022-08-16 11:31:05  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:33:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:33:05 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:33:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:33:05 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:33:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:33:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:33:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:33:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:33:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:33:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:34:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:34:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:34:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:34:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:34:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:34:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:35:06 -- 开始进行定位
+
+
+2022-08-16 11:35:06 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:35:06 -- 上次定位结果的时间 --> 2022-08-16 11:33:05  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:35:06 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:35:06 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:35:06 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:35:06 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:35:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:35:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:35:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:35:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:35:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:35:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:36:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:36:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:36:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:36:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:36:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:36:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:37:06 -- 开始进行定位
+
+
+2022-08-16 11:37:06 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:37:06 -- 上次定位结果的时间 --> 2022-08-16 11:35:06  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:37:06 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:37:06 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:37:06 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:37:06 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:37:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:37:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:37:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:37:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:37:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:37:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:38:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:38:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:38:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:38:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:38:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:38:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:39:07 -- 开始进行定位
+
+
+2022-08-16 11:39:07 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:39:07 -- 上次定位结果的时间 --> 2022-08-16 11:37:06  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:39:07 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:39:07 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:39:07 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:39:07 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:39:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:39:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:39:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:39:16 -- AppInit  process --> ProcessInfo(pid=17108, uid=17108, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 11:39:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:39:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:39:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:40:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:40:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:40:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:40:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:40:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:40:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:41:08 -- 开始进行定位
+
+
+2022-08-16 11:41:08 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:41:08 -- 上次定位结果的时间 --> 2022-08-16 11:39:07  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:41:08 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:41:08 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:41:08 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:41:08 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:41:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:41:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:41:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:41:39 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:41:39 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:41:39 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:42:09 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:42:09 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:42:09 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:42:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:42:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:42:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:43:08 -- 开始进行定位
+
+
+2022-08-16 11:43:09 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:43:09 -- 上次定位结果的时间 --> 2022-08-16 11:41:08  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:43:09 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:43:09 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:43:09 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:43:09 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:43:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:43:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:43:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:43:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:43:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:43:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:44:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:44:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:44:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:44:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:44:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:44:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:45:08 -- 开始进行定位
+
+
+2022-08-16 11:45:09 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:45:09 -- 上次定位结果的时间 --> 2022-08-16 11:43:09  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:45:09 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:45:09 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:45:09 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:45:09 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:45:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:45:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:45:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:45:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:45:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:45:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:46:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:46:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:46:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:46:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:46:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:46:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:47:09 -- 开始进行定位
+
+
+2022-08-16 11:47:10 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:47:10 -- 上次定位结果的时间 --> 2022-08-16 11:45:09  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:47:10 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:47:10 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:47:10 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:47:10 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:47:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:47:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:47:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:47:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:47:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:47:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:48:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:48:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:48:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:48:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:48:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:48:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:49:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:49:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:49:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:49:10 -- 开始进行定位
+
+
+2022-08-16 11:49:11 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:49:11 -- 上次定位结果的时间 --> 2022-08-16 11:47:10  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:49:11 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:49:11 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:49:11 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:49:11 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:49:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:49:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:49:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:50:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:50:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:50:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:50:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:50:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:50:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:51:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:51:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:51:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:51:11 -- 开始进行定位
+
+
+2022-08-16 11:51:12 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:51:12 -- 上次定位结果的时间 --> 2022-08-16 11:49:11  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:51:12 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:51:12 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:51:12 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:51:12 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:51:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:51:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:51:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:52:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:52:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:52:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:52:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:52:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:52:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:53:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:53:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:53:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:53:12 -- 开始进行定位
+
+
+2022-08-16 11:53:13 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:53:13 -- 上次定位结果的时间 --> 2022-08-16 11:51:12  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:53:13 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:53:13 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:53:13 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:53:13 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:53:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:53:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:53:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:54:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:54:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:54:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:54:34 -- AppInit  process --> ProcessInfo(pid=21205, uid=21205, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 11:54:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:54:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:54:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:55:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:55:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:55:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:55:13 -- 开始进行定位
+
+
+2022-08-16 11:55:14 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:55:14 -- 上次定位结果的时间 --> 2022-08-16 11:53:13  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:55:15 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:55:15 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:55:15 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:55:15 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:55:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:55:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:55:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:56:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:56:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:56:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:56:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:56:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:56:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:57:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:57:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:57:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:57:14 -- 开始进行定位
+
+
+2022-08-16 11:57:15 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:57:15 -- 上次定位结果的时间 --> 2022-08-16 11:55:15  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:57:15 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:57:15 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:57:15 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:57:15 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:57:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:57:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:57:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:58:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:58:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:58:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:58:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:58:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:58:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:59:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:59:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:59:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 11:59:15 -- 开始进行定位
+
+
+2022-08-16 11:59:16 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:59:16 -- 上次定位结果的时间 --> 2022-08-16 11:57:15  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:59:16 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:59:16 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:59:16 -- 开始进行定位
+
+
+2022-08-16 11:59:16 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:59:16 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:59:18 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 11:59:19 -- 上次定位结果的时间 --> 2022-08-16 11:57:15  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 11:59:19 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 11:59:19 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 11:59:19 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 11:59:19 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 11:59:19 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 11:59:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 11:59:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 11:59:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:00:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:00:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:00:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:00:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:00:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:00:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:01:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:01:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:01:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:01:16 -- 开始进行定位
+
+
+2022-08-16 12:01:17 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:01:17 -- 上次定位结果的时间 --> 2022-08-16 11:59:19  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:01:17 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:01:17 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:01:17 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:01:17 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:01:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:01:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:01:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:02:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:02:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:02:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:02:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:02:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:02:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:03:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:03:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:03:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:03:17 -- 开始进行定位
+
+
+2022-08-16 12:03:18 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:03:18 -- 开始进行定位
+
+
+2022-08-16 12:03:18 -- 上次定位结果的时间 --> 2022-08-16 12:01:17  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:03:18 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:03:18 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:03:18 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:03:18 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:03:20 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:03:20 -- 上次定位结果的时间 --> 2022-08-16 12:01:17  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:03:21 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:03:21 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:03:21 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:03:21 -- 两次定位上报时间之间相差过短  小于目标值 --> 30 不进行上报
+
+
+2022-08-16 12:03:21 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:03:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:03:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:03:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:04:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:04:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:04:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:04:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:04:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:04:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:05:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:05:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:05:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:05:18 -- 开始进行定位
+
+
+2022-08-16 12:05:19 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:05:19 -- 上次定位结果的时间 --> 2022-08-16 12:03:21  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:05:19 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:05:19 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:05:19 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:05:19 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:05:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:05:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:05:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:06:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:06:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:06:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:06:22 -- AppInit  process --> ProcessInfo(pid=23261, uid=23261, name=app.tikteam.bind:channel, simpleName=channel)  是否是前台 --> false
+
+
+2022-08-16 12:06:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:06:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:06:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:07:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:07:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:07:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:07:19 -- 开始进行定位
+
+
+2022-08-16 12:07:20 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:07:20 -- 上次定位结果的时间 --> 2022-08-16 12:05:19  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:07:20 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:07:20 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:07:20 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:07:20 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:07:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:07:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:07:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:08:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:08:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:08:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:08:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:08:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:08:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:09:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:09:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:09:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:09:20 -- 开始进行定位
+
+
+2022-08-16 12:09:21 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:09:21 -- 上次定位结果的时间 --> 2022-08-16 12:07:20  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:09:21 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:09:21 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:09:21 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:09:21 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:09:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:09:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:09:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:10:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:10:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:10:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:10:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:10:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:10:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:11:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:11:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:11:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:11:21 -- 开始进行定位
+
+
+2022-08-16 12:11:22 -- 获得定位结果  latitude=31.200888#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2tndG90b2drZmVlMzc5YWQ1N2RnNDExYmQ5NDIwLFl2cjZJUk12RWdnREFLQzZrYUJLVjZUaA==#csid:584d4dac0f0e4171a462ed954e2f4194#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660620184646
+
+
+2022-08-16 12:11:22 -- 上次定位结果的时间 --> 2022-08-16 12:09:21  本次定位结果的时间 --> 2022-08-16 11:23:04
+
+
+2022-08-16 12:11:22 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-16 12:11:22 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-16 12:11:22 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-16 12:11:22 -- 定位成功后台智能定位成功 121.602994  --  31.200888  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-16 12:11:40 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:11:40 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:11:40 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:12:10 -- 检测到KeepLiveService被杀死
+
+
+2022-08-16 12:12:10 -- KeepLiveService  onStartCommand
+
+
+2022-08-16 12:12:10 -- !!!!!!!开启智能定位  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@51b02ca
+
+
+2022-08-16 12:12:11 -- 监听到充电状态发生改变 --> ACTION_POWER_CONNECTED
