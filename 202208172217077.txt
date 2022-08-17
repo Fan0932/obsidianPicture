@@ -1,0 +1,2443 @@
+
+
+
+2022-08-17 16:11:51 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:11:51 -- 检查定时器状态  sDisposable --> null
+
+
+2022-08-17 16:11:51 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:11:51 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:11:52 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:53 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:54 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:55 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:56 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:57 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:58 -- 未登录，不进行上报
+
+
+2022-08-17 16:11:59 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:12:00 -- 获得定位结果  latitude=0.0#longitude=0.0#province=#coordType=GCJ02#city=#district=#cityCode=#adCode=#address=#country=#road=#poiName=#street=#streetNum=#aoiName=#poiid=#floor=#errorCode=12#errorInfo=缺少定位权限#locationDetail=定位权限被禁用,请授予应用定位权限#1201#description=#locationType=0#conScenario=0  time --> 0
+
+
+2022-08-17 16:12:00 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 600秒
+
+
+2022-08-17 16:12:00 -- 请求定位失败 error --> 12  info --> 缺少定位权限 请到http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明,错误详细信息:定位权限被禁用,请授予应用定位权限#1201  通过尝试模式立即进行一次请求
+
+
+2022-08-17 16:12:00 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:12:00 -- 获得定位结果  latitude=0.0#longitude=0.0#province=#coordType=GCJ02#city=#district=#cityCode=#adCode=#address=#country=#road=#poiName=#street=#streetNum=#aoiName=#poiid=#floor=#errorCode=12#errorInfo=缺少定位权限#locationDetail=定位权限被禁用,请授予应用定位权限#1201#description=#locationType=0#conScenario=0  time --> 0
+
+
+2022-08-17 16:12:00 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 600秒
+
+
+2022-08-17 16:12:00 -- 请求定位失败 error --> 12  info --> 缺少定位权限 请到http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明,错误详细信息:定位权限被禁用,请授予应用定位权限#1201
+
+
+2022-08-17 16:12:00 -- 上报定位结果 --> {}
+
+
+2022-08-17 16:12:00 -- 上报定位结果 --> {}
+
+
+2022-08-17 16:12:20 -- 监听获取到了定位权限，立即进行一次定位
+
+
+2022-08-17 16:12:21 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:12:23 -- 获得定位结果  latitude=31.200851#longitude=121.603026#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:de21ddeff4144729a0ab96859526e4bc#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660723944475
+
+
+2022-08-17 16:12:23 -- 查询定位列表为空
+
+
+2022-08-17 16:12:23 -- 上次定位结果为空
+
+
+2022-08-17 16:12:23 -- 定位结束  设置下一次定位 定位类型 --> WIFI_STAY  模式 --> Battery_Saving 间隔时间 --> 600秒
+
+
+2022-08-17 16:12:23 -- 更新定位信息列表  长度 --> 1
+
+
+2022-08-17 16:12:23 -- 定位成功后台智能定位成功 121.603026  --  31.200851  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 33.0
+
+
+2022-08-17 16:12:23 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:12:23 -- 写入本地的配置 --> {"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0,"configMd5":"6C77208FB3486DBB54DD1ABED829BB73"}
+
+
+2022-08-17 16:12:43 -- 监听到网络状态发送改变  NETWORK_5G  2022-08-17 16:12:43
+
+
+2022-08-17 16:12:43 -- 通过网络状态变化监听到用户位置发生改变
+
+
+2022-08-17 16:12:43 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:12:44 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:12:44 -- 获得定位结果  latitude=31.200851#longitude=121.603026#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:de21ddeff4144729a0ab96859526e4bc#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660723944475
+
+
+2022-08-17 16:12:44 -- 查询两次定位间隔时间超过1分钟的定位为空
+
+
+2022-08-17 16:12:44 -- 上次定位结果为空
+
+
+2022-08-17 16:12:44 -- 更新定位信息列表  长度 --> 2
+
+
+2022-08-17 16:12:44 -- 上次定位类型 [move]  本次定位类型 [MOBILE_STAY] 检测停留次数 [4] 本次依然修改为移动模式
+
+
+2022-08-17 16:12:44 -- 定位结束  设置下一次定位 定位类型 --> MOVE  模式 --> Device_Sensors 间隔时间 --> 5秒
+
+
+2022-08-17 16:12:44 -- 定位成功后台智能定位成功 121.603026  --  31.200851  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 33.0
+
+
+2022-08-17 16:12:44 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:12:44 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:12:50 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@f2c3366
+
+
+2022-08-17 16:13:13 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:13:13 -- 检查定时器状态  sDisposable --> null
+
+
+2022-08-17 16:13:14 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:13:14 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@96d3cfc
+
+
+2022-08-17 16:13:14 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@96d3cfc
+
+
+2022-08-17 16:13:14 -- 获得定位结果  latitude=31.200891#longitude=121.602993#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:052b536fe06346f18f0bade511809f56#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660723995915
+
+
+2022-08-17 16:13:14 -- 查询定位列表为空
+
+
+2022-08-17 16:13:14 -- 上次定位结果为空
+
+
+2022-08-17 16:13:14 -- 更新定位信息列表  长度 --> 1
+
+
+2022-08-17 16:13:14 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Hight_Accuracy 间隔时间 --> 120秒
+
+
+2022-08-17 16:13:14 -- 定位成功后台智能定位成功 121.602993  --  31.200891  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 52.0
+
+
+2022-08-17 16:13:15 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:13:15 -- 写入本地的配置 --> {"interval":120000,"source":"smart","mode":2,"step":40,"distance":100,"sensor":1,"stayWifiConfig":{"interval":120000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":120000,"mode":2,"type":"MOBILE_STAY"},"moveConfig":{"interval":30000,"mode":2,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0,"configMd5":"6C77208FB3486DBB54DD1ABED829BB73"}
+
+
+2022-08-17 16:13:23 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:13:23 -- 检查定时器状态  sDisposable --> null
+
+
+2022-08-17 16:13:23 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:13:23 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:13:23 -- !!!!!!!开启智能定位
+
+
+2022-08-17 16:13:23 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:13:24 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:13:24 -- 获得定位结果  latitude=31.200841#longitude=121.602975#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:322cf741014c462c983df7006ed48262#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660724005716
+
+
+2022-08-17 16:13:24 -- 查询定位列表为空
+
+
+2022-08-17 16:13:24 -- 上次定位结果为空
+
+
+2022-08-17 16:13:24 -- 更新定位信息列表  长度 --> 1
+
+
+2022-08-17 16:13:24 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Hight_Accuracy 间隔时间 --> 120秒
+
+
+2022-08-17 16:13:24 -- 定位成功后台智能定位成功 121.602975  --  31.200841  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 40.0
+
+
+2022-08-17 16:13:24 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:13:24 -- 写入本地的配置 --> {"interval":120000,"source":"smart","mode":2,"step":40,"distance":100,"sensor":1,"stayWifiConfig":{"interval":120000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":120000,"mode":2,"type":"MOBILE_STAY"},"moveConfig":{"interval":30000,"mode":2,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0,"configMd5":"6C77208FB3486DBB54DD1ABED829BB73"}
+
+
+2022-08-17 16:13:51 -- 监听到充电状态发生改变 --> ACTION_POWER_CONNECTED
+
+
+2022-08-17 16:13:51 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:13:51 -- 上报定位结果 --> {}
+
+
+2022-08-17 16:14:36 -- 监听到充电状态发生改变 --> ACTION_POWER_DISCONNECTED
+
+
+2022-08-17 16:14:36 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:14:36 -- 上报定位结果 --> {}
+
+
+2022-08-17 16:15:24 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:15:25 -- 获得定位结果  latitude=31.200868#longitude=121.603004#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:cac1173f677a4f93b09a24ed175d43e3#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660724126813
+
+
+2022-08-17 16:15:25 -- 查询两次定位间隔时间超过1分钟的定位为空
+
+
+2022-08-17 16:15:25 -- 上次定位结果为空
+
+
+2022-08-17 16:15:25 -- 更新定位信息列表  长度 --> 2
+
+
+2022-08-17 16:15:25 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:15:25 -- 定位成功后台智能定位成功 121.603004  --  31.200868  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 36.0
+
+
+2022-08-17 16:15:26 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:15:26 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:17:25 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:17:26 -- 获得定位结果  latitude=31.200857#longitude=121.603016#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:cbf072f6004349f7a319dee171ac953e#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660724247655
+
+
+2022-08-17 16:17:26 -- 上次定位结果的时间 --> 2022-08-17 16:13:24  本次定位结果的时间 --> 2022-08-17 16:17:26
+
+
+2022-08-17 16:17:26 -- 判断没有发生移动 两次定位距离 --> 4.2862415  目前距离 --> 100  
+
+
+2022-08-17 16:17:26 -- 更新定位信息列表  长度 --> 3
+
+
+2022-08-17 16:17:26 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:17:26 -- 定位成功后台智能定位成功 121.603016  --  31.200857  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 53.0
+
+
+2022-08-17 16:17:26 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:17:26 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:19:26 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:19:27 -- 获得定位结果  latitude=31.200857#longitude=121.603016#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:cbf072f6004349f7a319dee171ac953e#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724247655
+
+
+2022-08-17 16:19:27 -- 上次定位结果的时间 --> 2022-08-17 16:15:25  本次定位结果的时间 --> 2022-08-17 16:19:27
+
+
+2022-08-17 16:19:27 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:19:27 -- 判断没有发生移动 两次定位距离 --> 1.6729404  目前距离 --> 100  
+
+
+2022-08-17 16:19:27 -- 更新定位信息列表  长度 --> 4
+
+
+2022-08-17 16:19:27 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:19:27 -- 定位成功后台智能定位成功 121.603016  --  31.200857  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 53.0
+
+
+2022-08-17 16:19:27 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:19:27 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:19:29 -- 获得定位结果  latitude=31.200857#longitude=121.603016#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:cbf072f6004349f7a319dee171ac953e#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724247655
+
+
+2022-08-17 16:19:29 -- 上次定位结果的时间 --> 2022-08-17 16:15:25  本次定位结果的时间 --> 2022-08-17 16:19:29
+
+
+2022-08-17 16:19:29 -- 判断没有发生移动 两次定位距离 --> 1.6729404  目前距离 --> 100  
+
+
+2022-08-17 16:19:29 -- 更新定位信息列表  长度 --> 5
+
+
+2022-08-17 16:19:29 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:19:29 -- 定位成功后台智能定位成功 121.603016  --  31.200857  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 53.0
+
+
+2022-08-17 16:19:29 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:19:29 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:21:28 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:21:29 -- 获得定位结果  latitude=31.200852#longitude=121.603017#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:3d7a2ac1407749448c648842aad9f3a1#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660724490742
+
+
+2022-08-17 16:21:29 -- 上次定位结果的时间 --> 2022-08-17 16:17:26  本次定位结果的时间 --> 2022-08-17 16:21:29
+
+
+2022-08-17 16:21:29 -- 判断没有发生移动 两次定位距离 --> 0.56405145  目前距离 --> 100  
+
+
+2022-08-17 16:21:29 -- 更新定位信息列表  长度 --> 6
+
+
+2022-08-17 16:21:29 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:21:29 -- 定位成功后台智能定位成功 121.603017  --  31.200852  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-17 16:21:29 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:21:29 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:23:29 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:23:30 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:23:30 -- 上次定位结果的时间 --> 2022-08-17 16:19:29  本次定位结果的时间 --> 2022-08-17 16:23:30
+
+
+2022-08-17 16:23:30 -- 判断没有发生移动 两次定位距离 --> 6.6777954  目前距离 --> 100  
+
+
+2022-08-17 16:23:30 -- 更新定位信息列表  长度 --> 7
+
+
+2022-08-17 16:23:30 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:23:30 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:23:31 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:23:31 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:25:29 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:25:30 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:25:30 -- 上次定位结果的时间 --> 2022-08-17 16:21:29  本次定位结果的时间 --> 2022-08-17 16:25:30
+
+
+2022-08-17 16:25:30 -- 判断没有发生移动 两次定位距离 --> 6.1186795  目前距离 --> 100  
+
+
+2022-08-17 16:25:30 -- 更新定位信息列表  长度 --> 8
+
+
+2022-08-17 16:25:30 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:25:30 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:25:31 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:25:31 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:27:30 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:27:31 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:27:31 -- 上次定位结果的时间 --> 2022-08-17 16:23:30  本次定位结果的时间 --> 2022-08-17 16:27:31
+
+
+2022-08-17 16:27:31 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:27:31 -- 更新定位信息列表  长度 --> 9
+
+
+2022-08-17 16:27:31 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:27:31 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:27:31 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:27:31 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:29:31 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:29:32 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:29:32 -- 上次定位结果的时间 --> 2022-08-17 16:25:30  本次定位结果的时间 --> 2022-08-17 16:29:32
+
+
+2022-08-17 16:29:32 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:29:32 -- 更新定位信息列表  长度 --> 10
+
+
+2022-08-17 16:29:32 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:29:32 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:29:33 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:29:33 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:31:32 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:31:33 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:31:33 -- 上次定位结果的时间 --> 2022-08-17 16:27:31  本次定位结果的时间 --> 2022-08-17 16:31:33
+
+
+2022-08-17 16:31:33 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:31:33 -- 更新定位信息列表  长度 --> 11
+
+
+2022-08-17 16:31:33 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:31:33 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:31:33 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:31:33 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:33:33 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:33:34 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:33:34 -- 上次定位结果的时间 --> 2022-08-17 16:29:32  本次定位结果的时间 --> 2022-08-17 16:33:34
+
+
+2022-08-17 16:33:34 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:33:34 -- 更新定位信息列表  长度 --> 12
+
+
+2022-08-17 16:33:34 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:33:34 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:33:34 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:33:34 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:35:34 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:35:35 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:35:35 -- 上次定位结果的时间 --> 2022-08-17 16:31:33  本次定位结果的时间 --> 2022-08-17 16:35:35
+
+
+2022-08-17 16:35:35 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:35:35 -- 更新定位信息列表  长度 --> 13
+
+
+2022-08-17 16:35:35 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:35:35 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:35:35 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:35:35 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:37:35 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:37:36 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:37:36 -- 上次定位结果的时间 --> 2022-08-17 16:33:34  本次定位结果的时间 --> 2022-08-17 16:37:36
+
+
+2022-08-17 16:37:36 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:37:36 -- 更新定位信息列表  长度 --> 14
+
+
+2022-08-17 16:37:36 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:37:36 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:37:36 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:37:36 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:39:35 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:39:36 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:39:36 -- 上次定位结果的时间 --> 2022-08-17 16:35:35  本次定位结果的时间 --> 2022-08-17 16:39:36
+
+
+2022-08-17 16:39:36 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:39:36 -- 更新定位信息列表  长度 --> 15
+
+
+2022-08-17 16:39:36 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:39:36 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:39:36 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:39:36 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:41:36 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:41:37 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:41:37 -- 上次定位结果的时间 --> 2022-08-17 16:37:36  本次定位结果的时间 --> 2022-08-17 16:41:37
+
+
+2022-08-17 16:41:37 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:41:37 -- 更新定位信息列表  长度 --> 16
+
+
+2022-08-17 16:41:37 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:41:37 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:41:37 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:41:37 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:43:37 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:43:38 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:43:38 -- 上次定位结果的时间 --> 2022-08-17 16:39:36  本次定位结果的时间 --> 2022-08-17 16:43:38
+
+
+2022-08-17 16:43:38 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:43:38 -- 更新定位信息列表  长度 --> 17
+
+
+2022-08-17 16:43:38 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:43:38 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:43:38 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:43:38 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:45:37 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:45:38 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:45:38 -- 上次定位结果的时间 --> 2022-08-17 16:41:37  本次定位结果的时间 --> 2022-08-17 16:45:38
+
+
+2022-08-17 16:45:38 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:45:38 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:45:38 -- 更新定位信息列表  长度 --> 18
+
+
+2022-08-17 16:45:38 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:45:38 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:45:38 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:45:38 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:45:40 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:45:40 -- 上次定位结果的时间 --> 2022-08-17 16:41:37  本次定位结果的时间 --> 2022-08-17 16:45:40
+
+
+2022-08-17 16:45:40 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:45:40 -- 更新定位信息列表  长度 --> 19
+
+
+2022-08-17 16:45:40 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:45:40 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:45:40 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:45:40 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:47:39 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:47:40 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:47:40 -- 上次定位结果的时间 --> 2022-08-17 16:43:38  本次定位结果的时间 --> 2022-08-17 16:47:40
+
+
+2022-08-17 16:47:40 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:47:40 -- 更新定位信息列表  长度 --> 20
+
+
+2022-08-17 16:47:40 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:47:40 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:47:40 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:47:40 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:49:39 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:49:40 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:49:40 -- 上次定位结果的时间 --> 2022-08-17 16:45:40  本次定位结果的时间 --> 2022-08-17 16:49:40
+
+
+2022-08-17 16:49:40 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:49:40 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:49:40 -- 更新定位信息列表  长度 --> 21
+
+
+2022-08-17 16:49:40 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:49:40 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:49:40 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:49:40 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:49:42 -- 获得定位结果  latitude=31.200797#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7a014b95b7bc4facad5873a4b2f9c330#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660724611867
+
+
+2022-08-17 16:49:42 -- 上次定位结果的时间 --> 2022-08-17 16:45:40  本次定位结果的时间 --> 2022-08-17 16:49:42
+
+
+2022-08-17 16:49:42 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:49:42 -- 更新定位信息列表  长度 --> 22
+
+
+2022-08-17 16:49:42 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:49:42 -- 定位成功后台智能定位成功 121.603019  --  31.200797  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 16:49:42 -- 上报定位结果 --> {}
+
+
+2022-08-17 16:51:41 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:51:43 -- 获得定位结果  latitude=31.200873#longitude=121.603001#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:abfb4ce0d89541b5b9a55aaa8a2fa2bc#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660726304139
+
+
+2022-08-17 16:51:43 -- 上次定位结果的时间 --> 2022-08-17 16:47:40  本次定位结果的时间 --> 2022-08-17 16:51:43
+
+
+2022-08-17 16:51:43 -- 判断没有发生移动 两次定位距离 --> 8.622484  目前距离 --> 100  
+
+
+2022-08-17 16:51:43 -- 更新定位信息列表  长度 --> 23
+
+
+2022-08-17 16:51:43 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:51:43 -- 定位成功后台智能定位成功 121.603001  --  31.200873  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-17 16:51:43 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:51:43 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:53:41 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:53:42 -- 获得定位结果  latitude=31.200873#longitude=121.603001#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:abfb4ce0d89541b5b9a55aaa8a2fa2bc#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726304139
+
+
+2022-08-17 16:53:42 -- 上次定位结果的时间 --> 2022-08-17 16:49:42  本次定位结果的时间 --> 2022-08-17 16:53:42
+
+
+2022-08-17 16:53:42 -- 判断没有发生移动 两次定位距离 --> 8.622484  目前距离 --> 100  
+
+
+2022-08-17 16:53:42 -- 更新定位信息列表  长度 --> 24
+
+
+2022-08-17 16:53:42 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:53:42 -- 定位成功后台智能定位成功 121.603001  --  31.200873  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-17 16:53:42 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:53:42 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:55:42 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:55:43 -- 获得定位结果  latitude=31.200873#longitude=121.603001#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:abfb4ce0d89541b5b9a55aaa8a2fa2bc#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726304139
+
+
+2022-08-17 16:55:43 -- 上次定位结果的时间 --> 2022-08-17 16:51:43  本次定位结果的时间 --> 2022-08-17 16:55:43
+
+
+2022-08-17 16:55:43 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:55:43 -- 更新定位信息列表  长度 --> 25
+
+
+2022-08-17 16:55:43 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:55:43 -- 定位成功后台智能定位成功 121.603001  --  31.200873  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-17 16:55:43 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:55:43 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:57:43 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:57:44 -- 获得定位结果  latitude=31.200873#longitude=121.603001#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:abfb4ce0d89541b5b9a55aaa8a2fa2bc#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726304139
+
+
+2022-08-17 16:57:44 -- 上次定位结果的时间 --> 2022-08-17 16:53:42  本次定位结果的时间 --> 2022-08-17 16:57:44
+
+
+2022-08-17 16:57:44 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 16:57:44 -- 更新定位信息列表  长度 --> 26
+
+
+2022-08-17 16:57:44 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:57:44 -- 定位成功后台智能定位成功 121.603001  --  31.200873  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-17 16:57:44 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:57:44 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 16:59:44 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 16:59:45 -- 获得定位结果  latitude=31.200875#longitude=121.603003#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:92cf71045cce4cf49b1dd446b81e7f8e#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660726786555
+
+
+2022-08-17 16:59:45 -- 上次定位结果的时间 --> 2022-08-17 16:55:43  本次定位结果的时间 --> 2022-08-17 16:59:45
+
+
+2022-08-17 16:59:45 -- 判断没有发生移动 两次定位距离 --> 0.29264638  目前距离 --> 100  
+
+
+2022-08-17 16:59:45 -- 更新定位信息列表  长度 --> 27
+
+
+2022-08-17 16:59:45 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 16:59:45 -- 定位成功后台智能定位成功 121.603003  --  31.200875  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 39.0
+
+
+2022-08-17 16:59:45 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 16:59:45 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:01:45 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:01:46 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:01:46 -- 上次定位结果的时间 --> 2022-08-17 16:57:44  本次定位结果的时间 --> 2022-08-17 17:01:46
+
+
+2022-08-17 17:01:46 -- 判断没有发生移动 两次定位距离 --> 1.3926033  目前距离 --> 100  
+
+
+2022-08-17 17:01:46 -- 更新定位信息列表  长度 --> 28
+
+
+2022-08-17 17:01:46 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:01:46 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:01:46 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:01:46 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:03:46 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:03:47 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:03:47 -- 上次定位结果的时间 --> 2022-08-17 16:59:45  本次定位结果的时间 --> 2022-08-17 17:03:47
+
+
+2022-08-17 17:03:47 -- 判断没有发生移动 两次定位距离 --> 1.3169086  目前距离 --> 100  
+
+
+2022-08-17 17:03:47 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:03:47 -- 更新定位信息列表  长度 --> 29
+
+
+2022-08-17 17:03:47 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:03:47 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:03:47 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:03:47 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:03:49 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:03:49 -- 上次定位结果的时间 --> 2022-08-17 16:59:45  本次定位结果的时间 --> 2022-08-17 17:03:49
+
+
+2022-08-17 17:03:49 -- 判断没有发生移动 两次定位距离 --> 1.3169086  目前距离 --> 100  
+
+
+2022-08-17 17:03:49 -- 更新定位信息列表  长度 --> 30
+
+
+2022-08-17 17:03:49 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:03:49 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:03:49 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:03:49 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:05:48 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:05:49 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:05:49 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:05:49 -- 上次定位结果的时间 --> 2022-08-17 17:01:46  本次定位结果的时间 --> 2022-08-17 17:05:49
+
+
+2022-08-17 17:05:49 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:05:49 -- 更新定位信息列表  长度 --> 31
+
+
+2022-08-17 17:05:49 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:05:49 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:05:49 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:05:49 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:05:51 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:05:51 -- 上次定位结果的时间 --> 2022-08-17 17:01:46  本次定位结果的时间 --> 2022-08-17 17:05:51
+
+
+2022-08-17 17:05:51 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:05:51 -- 更新定位信息列表  长度 --> 32
+
+
+2022-08-17 17:05:51 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:05:51 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:05:51 -- 上报定位结果 --> {}
+
+
+2022-08-17 17:07:49 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:07:50 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:07:50 -- 上次定位结果的时间 --> 2022-08-17 17:03:49  本次定位结果的时间 --> 2022-08-17 17:07:50
+
+
+2022-08-17 17:07:50 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:07:50 -- 更新定位信息列表  长度 --> 33
+
+
+2022-08-17 17:07:50 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:07:50 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:07:50 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:07:50 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:09:50 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:09:51 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:09:51 -- 上次定位结果的时间 --> 2022-08-17 17:05:51  本次定位结果的时间 --> 2022-08-17 17:09:51
+
+
+2022-08-17 17:09:51 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:09:51 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:09:51 -- 更新定位信息列表  长度 --> 34
+
+
+2022-08-17 17:09:51 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:09:51 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:09:51 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:09:51 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:09:53 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:09:53 -- 上次定位结果的时间 --> 2022-08-17 17:05:51  本次定位结果的时间 --> 2022-08-17 17:09:53
+
+
+2022-08-17 17:09:53 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:09:53 -- 更新定位信息列表  长度 --> 35
+
+
+2022-08-17 17:09:53 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:09:53 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:09:53 -- 上报定位结果 --> {}
+
+
+2022-08-17 17:11:51 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:11:52 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:11:52 -- 上次定位结果的时间 --> 2022-08-17 17:07:50  本次定位结果的时间 --> 2022-08-17 17:11:52
+
+
+2022-08-17 17:11:52 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:11:52 -- 更新定位信息列表  长度 --> 36
+
+
+2022-08-17 17:11:52 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:11:52 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:11:52 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:11:52 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:13:52 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:13:53 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:13:53 -- 上次定位结果的时间 --> 2022-08-17 17:09:53  本次定位结果的时间 --> 2022-08-17 17:13:53
+
+
+2022-08-17 17:13:53 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:13:53 -- 更新定位信息列表  长度 --> 37
+
+
+2022-08-17 17:13:53 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:13:53 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:13:53 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:13:53 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:15:53 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:15:54 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:15:54 -- 上次定位结果的时间 --> 2022-08-17 17:11:52  本次定位结果的时间 --> 2022-08-17 17:15:54
+
+
+2022-08-17 17:15:54 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:15:54 -- 更新定位信息列表  长度 --> 38
+
+
+2022-08-17 17:15:54 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:15:54 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:15:54 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:15:54 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:17:54 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:17:55 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:17:55 -- 上次定位结果的时间 --> 2022-08-17 17:13:53  本次定位结果的时间 --> 2022-08-17 17:17:55
+
+
+2022-08-17 17:17:55 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:17:55 -- 更新定位信息列表  长度 --> 39
+
+
+2022-08-17 17:17:55 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:17:55 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:17:55 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:17:55 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:19:55 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:19:56 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:19:56 -- 上次定位结果的时间 --> 2022-08-17 17:15:54  本次定位结果的时间 --> 2022-08-17 17:19:56
+
+
+2022-08-17 17:19:56 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:19:56 -- 更新定位信息列表  长度 --> 40
+
+
+2022-08-17 17:19:56 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:19:56 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:19:56 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:19:56 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:21:56 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:21:57 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:21:57 -- 上次定位结果的时间 --> 2022-08-17 17:17:55  本次定位结果的时间 --> 2022-08-17 17:21:57
+
+
+2022-08-17 17:21:57 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:21:57 -- 更新定位信息列表  长度 --> 41
+
+
+2022-08-17 17:21:57 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:21:57 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:21:57 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:21:57 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:21:57 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:21:59 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:21:59 -- 上次定位结果的时间 --> 2022-08-17 17:17:55  本次定位结果的时间 --> 2022-08-17 17:21:59
+
+
+2022-08-17 17:21:59 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:21:59 -- 更新定位信息列表  长度 --> 42
+
+
+2022-08-17 17:21:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:21:59 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:21:59 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:21:59 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:23:58 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:23:59 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:23:59 -- 上次定位结果的时间 --> 2022-08-17 17:19:56  本次定位结果的时间 --> 2022-08-17 17:23:59
+
+
+2022-08-17 17:23:59 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:23:59 -- 更新定位信息列表  长度 --> 43
+
+
+2022-08-17 17:23:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:23:59 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:24:00 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:24:00 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:25:59 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:26:00 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:26:00 -- 上次定位结果的时间 --> 2022-08-17 17:21:59  本次定位结果的时间 --> 2022-08-17 17:26:00
+
+
+2022-08-17 17:26:00 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:26:00 -- 更新定位信息列表  长度 --> 44
+
+
+2022-08-17 17:26:00 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:26:00 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:26:00 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:26:00 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:28:00 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:28:01 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:28:01 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:28:01 -- 上次定位结果的时间 --> 2022-08-17 17:23:59  本次定位结果的时间 --> 2022-08-17 17:28:01
+
+
+2022-08-17 17:28:01 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:28:01 -- 更新定位信息列表  长度 --> 45
+
+
+2022-08-17 17:28:01 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:28:01 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:28:01 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:28:01 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:28:03 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:28:03 -- 上次定位结果的时间 --> 2022-08-17 17:23:59  本次定位结果的时间 --> 2022-08-17 17:28:03
+
+
+2022-08-17 17:28:03 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:28:03 -- 更新定位信息列表  长度 --> 46
+
+
+2022-08-17 17:28:03 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:28:03 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:28:03 -- 上报定位结果 --> {}
+
+
+2022-08-17 17:30:02 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:30:03 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:30:03 -- 上次定位结果的时间 --> 2022-08-17 17:26:00  本次定位结果的时间 --> 2022-08-17 17:30:03
+
+
+2022-08-17 17:30:03 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:30:03 -- 更新定位信息列表  长度 --> 47
+
+
+2022-08-17 17:30:03 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:30:03 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:30:03 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:30:03 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:32:03 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:32:04 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:32:04 -- 上次定位结果的时间 --> 2022-08-17 17:28:03  本次定位结果的时间 --> 2022-08-17 17:32:04
+
+
+2022-08-17 17:32:04 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:32:04 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:32:04 -- 更新定位信息列表  长度 --> 48
+
+
+2022-08-17 17:32:04 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:32:04 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:32:04 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:32:04 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:32:06 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:32:06 -- 上次定位结果的时间 --> 2022-08-17 17:28:03  本次定位结果的时间 --> 2022-08-17 17:32:06
+
+
+2022-08-17 17:32:06 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:32:06 -- 更新定位信息列表  长度 --> 49
+
+
+2022-08-17 17:32:06 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:32:06 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:32:06 -- 上报定位结果 --> {}
+
+
+2022-08-17 17:34:05 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:34:05 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:34:05 -- 上次定位结果的时间 --> 2022-08-17 17:30:03  本次定位结果的时间 --> 2022-08-17 17:34:05
+
+
+2022-08-17 17:34:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:34:05 -- 更新定位信息列表  长度 --> 50
+
+
+2022-08-17 17:34:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:34:05 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:34:05 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:34:05 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:36:05 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:36:05 -- 获得定位结果  latitude=31.200884#longitude=121.602994#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:180a01854d2d450b9bbc123948c6375c#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660726907722
+
+
+2022-08-17 17:36:05 -- 上次定位结果的时间 --> 2022-08-17 17:32:06  本次定位结果的时间 --> 2022-08-17 17:36:05
+
+
+2022-08-17 17:36:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:36:05 -- 更新定位信息列表  长度 --> 51
+
+
+2022-08-17 17:36:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:36:05 -- 定位成功后台智能定位成功 121.602994  --  31.200884  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 17:36:05 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:36:05 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:38:06 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:38:06 -- 获得定位结果  latitude=31.20086#longitude=121.603006#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:a78ec7cadb9445be830541515879ea54#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660729087968
+
+
+2022-08-17 17:38:06 -- 上次定位结果的时间 --> 2022-08-17 17:34:05  本次定位结果的时间 --> 2022-08-17 17:38:06
+
+
+2022-08-17 17:38:06 -- 判断没有发生移动 两次定位距离 --> 2.9024975  目前距离 --> 100  
+
+
+2022-08-17 17:38:06 -- 更新定位信息列表  长度 --> 52
+
+
+2022-08-17 17:38:06 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:38:06 -- 定位成功后台智能定位成功 121.603006  --  31.20086  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:38:07 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:38:07 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:40:07 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:40:07 -- 获得定位结果  latitude=31.20086#longitude=121.603006#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:a78ec7cadb9445be830541515879ea54#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660729087968
+
+
+2022-08-17 17:40:07 -- 上次定位结果的时间 --> 2022-08-17 17:36:05  本次定位结果的时间 --> 2022-08-17 17:40:07
+
+
+2022-08-17 17:40:07 -- 判断没有发生移动 两次定位距离 --> 2.9024975  目前距离 --> 100  
+
+
+2022-08-17 17:40:07 -- 更新定位信息列表  长度 --> 53
+
+
+2022-08-17 17:40:07 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:40:07 -- 定位成功后台智能定位成功 121.603006  --  31.20086  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:40:07 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:40:07 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:42:08 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:42:09 -- 获得定位结果  latitude=31.20086#longitude=121.603006#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:a78ec7cadb9445be830541515879ea54#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660729087968
+
+
+2022-08-17 17:42:09 -- 上次定位结果的时间 --> 2022-08-17 17:38:06  本次定位结果的时间 --> 2022-08-17 17:42:09
+
+
+2022-08-17 17:42:09 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:42:09 -- 更新定位信息列表  长度 --> 54
+
+
+2022-08-17 17:42:09 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:42:09 -- 定位成功后台智能定位成功 121.603006  --  31.20086  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:42:09 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:42:09 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:42:50 -- 监听到网络状态发送改变  NETWORK_UNKNOWN  2022-08-17 17:42:50
+
+
+2022-08-17 17:42:50 -- 通过网络状态变化监听到用户位置发生改变
+
+
+2022-08-17 17:42:50 -- 检查定时器状态  sDisposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:42:51 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:43:11 -- 监听到网络状态发送改变  NETWORK_5G  2022-08-17 17:43:11
+
+
+2022-08-17 17:43:11 -- 两次网络变化之间时间过短，不算作移动 本地网络状态 --> NETWORK_5G  gap --> 21386  target --> 30000
+
+
+2022-08-17 17:43:13 -- 获得定位结果  latitude=31.200866#longitude=121.603009#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:a881374ad7a249228301142f86444206#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660729394071
+
+
+2022-08-17 17:43:13 -- 上次定位结果的时间 --> 2022-08-17 17:40:07  本次定位结果的时间 --> 2022-08-17 17:43:13
+
+
+2022-08-17 17:43:13 -- 判断没有发生移动 两次定位距离 --> 0.7256244  目前距离 --> 100  
+
+
+2022-08-17 17:43:13 -- 更新定位信息列表  长度 --> 55
+
+
+2022-08-17 17:43:13 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:43:13 -- 定位成功后台智能定位成功 121.603009  --  31.200866  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 36.0
+
+
+2022-08-17 17:43:14 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:43:14 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:44:52 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:44:55 -- 获得定位结果  latitude=31.200865#longitude=121.603005#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7cb5c221dd044a219d31f2ec17c7abdd#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660729496756
+
+
+2022-08-17 17:44:55 -- 上次定位结果的时间 --> 2022-08-17 17:40:07  本次定位结果的时间 --> 2022-08-17 17:44:55
+
+
+2022-08-17 17:44:55 -- 判断没有发生移动 两次定位距离 --> 0.56405145  目前距离 --> 100  
+
+
+2022-08-17 17:44:55 -- 更新定位信息列表  长度 --> 56
+
+
+2022-08-17 17:44:55 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:44:55 -- 定位成功后台智能定位成功 121.603005  --  31.200865  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:44:55 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:44:55 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:46:52 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:46:53 -- 获得定位结果  latitude=31.200865#longitude=121.603005#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7cb5c221dd044a219d31f2ec17c7abdd#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660729496756
+
+
+2022-08-17 17:46:53 -- 上次定位结果的时间 --> 2022-08-17 17:43:13  本次定位结果的时间 --> 2022-08-17 17:46:53
+
+
+2022-08-17 17:46:53 -- 判断没有发生移动 两次定位距离 --> 0.39636207  目前距离 --> 100  
+
+
+2022-08-17 17:46:53 -- 更新定位信息列表  长度 --> 57
+
+
+2022-08-17 17:46:53 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:46:53 -- 定位成功后台智能定位成功 121.603005  --  31.200865  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:46:53 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:46:53 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:48:52 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:48:53 -- 获得定位结果  latitude=31.200865#longitude=121.603005#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7cb5c221dd044a219d31f2ec17c7abdd#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660729496756
+
+
+2022-08-17 17:48:53 -- 上次定位结果的时间 --> 2022-08-17 17:44:55  本次定位结果的时间 --> 2022-08-17 17:48:53
+
+
+2022-08-17 17:48:53 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:48:53 -- 更新定位信息列表  长度 --> 58
+
+
+2022-08-17 17:48:53 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:48:53 -- 定位成功后台智能定位成功 121.603005  --  31.200865  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:48:53 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:48:53 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:50:53 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:50:54 -- 获得定位结果  latitude=31.200865#longitude=121.603005#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:7cb5c221dd044a219d31f2ec17c7abdd#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660729496756
+
+
+2022-08-17 17:50:54 -- 上次定位结果的时间 --> 2022-08-17 17:46:53  本次定位结果的时间 --> 2022-08-17 17:50:54
+
+
+2022-08-17 17:50:54 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 17:50:54 -- 更新定位信息列表  长度 --> 59
+
+
+2022-08-17 17:50:54 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:50:54 -- 定位成功后台智能定位成功 121.603005  --  31.200865  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 37.0
+
+
+2022-08-17 17:50:54 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:50:54 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:52:53 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:52:54 -- 获得定位结果  latitude=31.200869#longitude=121.603008#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:60b8c70c16d14dd9a09ef1a58a3d53aa#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660729975586
+
+
+2022-08-17 17:52:54 -- 上次定位结果的时间 --> 2022-08-17 17:48:53  本次定位结果的时间 --> 2022-08-17 17:52:54
+
+
+2022-08-17 17:52:54 -- 判断没有发生移动 两次定位距离 --> 0.5284359  目前距离 --> 100  
+
+
+2022-08-17 17:52:54 -- 更新定位信息列表  长度 --> 60
+
+
+2022-08-17 17:52:54 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:52:54 -- 定位成功后台智能定位成功 121.603008  --  31.200869  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 35.0
+
+
+2022-08-17 17:52:55 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:52:55 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:54:54 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:54:55 -- 获得定位结果  latitude=31.200851#longitude=121.603019#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:5c2c031c42174023bdf399aaa9eed710#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660730096600
+
+
+2022-08-17 17:54:55 -- 上次定位结果的时间 --> 2022-08-17 17:50:54  本次定位结果的时间 --> 2022-08-17 17:54:55
+
+
+2022-08-17 17:54:55 -- 判断没有发生移动 两次定位距离 --> 2.0485246  目前距离 --> 100  
+
+
+2022-08-17 17:54:55 -- 更新定位信息列表  长度 --> 61
+
+
+2022-08-17 17:54:55 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:54:55 -- 定位成功后台智能定位成功 121.603019  --  31.200851  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 53.0
+
+
+2022-08-17 17:54:55 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:54:55 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:56:55 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:56:56 -- 获得定位结果  latitude=31.200809#longitude=121.602857#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=B0FFFZ6K79#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:91ef0d99e3d2452e9ef7d20b237984c7#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660730217630
+
+
+2022-08-17 17:56:56 -- 上次定位结果的时间 --> 2022-08-17 17:52:54  本次定位结果的时间 --> 2022-08-17 17:56:56
+
+
+2022-08-17 17:56:56 -- 判断没有发生移动 两次定位距离 --> 15.835819  目前距离 --> 100  
+
+
+2022-08-17 17:56:56 -- 更新定位信息列表  长度 --> 62
+
+
+2022-08-17 17:56:56 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:56:56 -- 定位成功后台智能定位成功 121.602857  --  31.200809  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 29.0
+
+
+2022-08-17 17:56:56 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:56:56 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 17:58:56 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 17:58:57 -- 获得定位结果  latitude=31.200809#longitude=121.602857#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=B0FFFZ6K79#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:91ef0d99e3d2452e9ef7d20b237984c7#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730217630
+
+
+2022-08-17 17:58:57 -- 上次定位结果的时间 --> 2022-08-17 17:54:55  本次定位结果的时间 --> 2022-08-17 17:58:57
+
+
+2022-08-17 17:58:57 -- 判断没有发生移动 两次定位距离 --> 16.100258  目前距离 --> 100  
+
+
+2022-08-17 17:58:57 -- 更新定位信息列表  长度 --> 63
+
+
+2022-08-17 17:58:57 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 17:58:57 -- 定位成功后台智能定位成功 121.602857  --  31.200809  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 29.0
+
+
+2022-08-17 17:58:57 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 17:58:57 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:00:56 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:00:57 -- 获得定位结果  latitude=31.200809#longitude=121.602857#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=B0FFFZ6K79#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:91ef0d99e3d2452e9ef7d20b237984c7#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730217630
+
+
+2022-08-17 18:00:57 -- 上次定位结果的时间 --> 2022-08-17 17:56:56  本次定位结果的时间 --> 2022-08-17 18:00:57
+
+
+2022-08-17 18:00:57 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:00:57 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:00:57 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:00:57 -- 定位成功后台智能定位成功 121.602857  --  31.200809  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 29.0
+
+
+2022-08-17 18:00:57 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:00:57 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:02:57 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:02:58 -- 获得定位结果  latitude=31.200809#longitude=121.602857#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=B0FFFZ6K79#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:91ef0d99e3d2452e9ef7d20b237984c7#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730217630
+
+
+2022-08-17 18:02:58 -- 上次定位结果的时间 --> 2022-08-17 17:58:57  本次定位结果的时间 --> 2022-08-17 18:02:58
+
+
+2022-08-17 18:02:58 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:02:58 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:02:58 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:02:58 -- 定位成功后台智能定位成功 121.602857  --  31.200809  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 29.0
+
+
+2022-08-17 18:02:58 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:02:58 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:04:57 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:04:58 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:04:58 -- 上次定位结果的时间 --> 2022-08-17 18:00:57  本次定位结果的时间 --> 2022-08-17 18:04:58
+
+
+2022-08-17 18:04:58 -- 判断没有发生移动 两次定位距离 --> 16.182795  目前距离 --> 100  
+
+
+2022-08-17 18:04:58 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:04:58 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:04:58 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:04:58 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:04:58 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:06:58 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:06:59 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:06:59 -- 上次定位结果的时间 --> 2022-08-17 18:02:58  本次定位结果的时间 --> 2022-08-17 18:06:59
+
+
+2022-08-17 18:06:59 -- 判断没有发生移动 两次定位距离 --> 16.182795  目前距离 --> 100  
+
+
+2022-08-17 18:06:59 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:06:59 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:06:59 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:06:59 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:06:59 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:08:59 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:09:00 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:09:00 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:09:00 -- 上次定位结果的时间 --> 2022-08-17 18:04:58  本次定位结果的时间 --> 2022-08-17 18:09:00
+
+
+2022-08-17 18:09:00 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:09:00 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:09:00 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:09:00 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:09:01 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:09:01 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:09:02 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:09:02 -- 上次定位结果的时间 --> 2022-08-17 18:04:58  本次定位结果的时间 --> 2022-08-17 18:09:02
+
+
+2022-08-17 18:09:02 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:09:02 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:09:02 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:09:02 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:09:02 -- 上报定位结果 --> {}
+
+
+2022-08-17 18:11:00 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:11:01 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:11:01 -- 上次定位结果的时间 --> 2022-08-17 18:06:59  本次定位结果的时间 --> 2022-08-17 18:11:01
+
+
+2022-08-17 18:11:01 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:11:01 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:11:01 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:11:01 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:11:02 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:11:02 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:13:01 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:13:02 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:13:02 -- 上次定位结果的时间 --> 2022-08-17 18:09:02  本次定位结果的时间 --> 2022-08-17 18:13:02
+
+
+2022-08-17 18:13:02 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:13:02 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:13:02 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:13:02 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:13:03 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:13:03 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:15:02 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:15:03 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:15:03 -- 上次定位结果的时间 --> 2022-08-17 18:11:01  本次定位结果的时间 --> 2022-08-17 18:15:03
+
+
+2022-08-17 18:15:03 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:15:03 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:15:03 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:15:03 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:15:03 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:15:03 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:15:03 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:15:05 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:15:05 -- 上次定位结果的时间 --> 2022-08-17 18:11:01  本次定位结果的时间 --> 2022-08-17 18:15:05
+
+
+2022-08-17 18:15:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:15:05 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:15:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:15:05 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:15:05 -- 上报定位结果 --> {}
+
+
+2022-08-17 18:17:03 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:17:04 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:17:04 -- 上次定位结果的时间 --> 2022-08-17 18:13:02  本次定位结果的时间 --> 2022-08-17 18:17:04
+
+
+2022-08-17 18:17:04 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:17:04 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:17:04 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:17:04 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:17:04 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:17:04 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:19:04 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:19:05 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:19:05 -- 上次定位结果的时间 --> 2022-08-17 18:15:05  本次定位结果的时间 --> 2022-08-17 18:19:05
+
+
+2022-08-17 18:19:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:19:05 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:19:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:19:05 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:19:05 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:19:05 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:21:04 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:21:05 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:21:05 -- 上次定位结果的时间 --> 2022-08-17 18:17:04  本次定位结果的时间 --> 2022-08-17 18:21:05
+
+
+2022-08-17 18:21:05 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:21:05 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:21:05 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:21:05 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:21:05 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:21:05 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:23:05 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:23:06 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:23:06 -- 上次定位结果的时间 --> 2022-08-17 18:19:05  本次定位结果的时间 --> 2022-08-17 18:23:06
+
+
+2022-08-17 18:23:06 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:23:06 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:23:06 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:23:06 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:23:06 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:23:06 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:25:06 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:25:07 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:25:07 -- 上次定位结果的时间 --> 2022-08-17 18:21:05  本次定位结果的时间 --> 2022-08-17 18:25:07
+
+
+2022-08-17 18:25:07 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:25:07 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:25:07 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:25:07 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:25:07 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:25:07 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:27:07 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:27:08 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:27:08 -- 上次定位结果的时间 --> 2022-08-17 18:23:06  本次定位结果的时间 --> 2022-08-17 18:27:08
+
+
+2022-08-17 18:27:08 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:27:08 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:27:08 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:27:08 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:27:08 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:27:08 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:29:08 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:29:09 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:29:09 -- 上次定位结果的时间 --> 2022-08-17 18:25:07  本次定位结果的时间 --> 2022-08-17 18:29:09
+
+
+2022-08-17 18:29:09 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:29:09 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:29:09 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:29:09 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:29:10 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:29:10 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:31:09 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:31:10 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:31:10 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:31:10 -- 上次定位结果的时间 --> 2022-08-17 18:27:08  本次定位结果的时间 --> 2022-08-17 18:31:10
+
+
+2022-08-17 18:31:10 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:31:10 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:31:10 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:31:10 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:31:10 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:31:11 -- 本次获得服务端配置与上次一致，不写入本地
+
+
+2022-08-17 18:31:12 -- 获得定位结果  latitude=31.200863#longitude=121.603015#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:8f4afc0e085f4f3b879bbaddefd24d10#description=在爱乐奇附近#locationType=2#conScenario=99  time --> 1660730699749
+
+
+2022-08-17 18:31:12 -- 上次定位结果的时间 --> 2022-08-17 18:27:08  本次定位结果的时间 --> 2022-08-17 18:31:12
+
+
+2022-08-17 18:31:12 -- 判断没有发生移动 两次定位距离 --> 0.0  目前距离 --> 100  
+
+
+2022-08-17 18:31:12 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:31:12 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:31:12 -- 定位成功后台智能定位成功 121.603015  --  31.200863  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 30.0
+
+
+2022-08-17 18:31:12 -- 上报定位结果 --> {}
+
+
+2022-08-17 18:33:10 -- 开始进行定位  Disposable --> java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ff260ad
+
+
+2022-08-17 18:33:11 -- 获得定位结果  latitude=31.200855#longitude=121.60302#province=上海市#coordType=GCJ02#city=上海市#district=浦东新区#cityCode=021#adCode=310115#address=上海市浦东新区博霞路22号靠近爱乐奇#country=中国#road=博霞路#poiName=爱乐奇#street=博霞路#streetNum=22号#aoiName=上海浦东软件园(哈雷路)#poiid=#floor=#errorCode=0#errorInfo=success#locationDetail=#id:Ya2VhbmtpYWtnZjg4Ymxmbm1sa21hY2E1NTMzYTE4LFl2eWl4dm9wcGRnREFBR3pUSFJPbjU0Sw==#csid:10a717381eca4856bc28a3916df6bb4c#description=在爱乐奇附近#locationType=5#conScenario=99  time --> 1660732392676
+
+
+2022-08-17 18:33:11 -- 上次定位结果的时间 --> 2022-08-17 18:29:09  本次定位结果的时间 --> 2022-08-17 18:33:11
+
+
+2022-08-17 18:33:11 -- 判断没有发生移动 两次定位距离 --> 1.0086973  目前距离 --> 100  
+
+
+2022-08-17 18:33:11 -- 更新定位信息列表  长度 --> 64
+
+
+2022-08-17 18:33:11 -- 定位结束  设置下一次定位 定位类型 --> MOBILE_STAY  模式 --> Battery_Saving 间隔时间 --> 120秒
+
+
+2022-08-17 18:33:11 -- 定位成功后台智能定位成功 121.60302  --  31.200855  address --> 博霞路  手机是否发生了偏移 -- null  speed -- 0.0 精度 -- 54.0
+
+
+2022-08-17 18:33:12 -- 上报定位结果 --> {"logConfigure":{"interval":300000,"source":"smart","mode":1,"step":30,"distance":30,"sensor":1,"stayWifiConfig":{"interval":600000,"mode":2,"type":"WIFI_STAY"},"stayMobileConfig":{"interval":300000,"mode":1,"type":"MOBILE_STAY"},"moveConfig":{"interval":5000,"mode":4,"type":"MOVE"},"optimization":1,"stayStatusCount":5,"debugLocationIndex":0}}
+
+
+2022-08-17 18:33:12 -- 本次获得服务端配置与上次一致，不写入本地
